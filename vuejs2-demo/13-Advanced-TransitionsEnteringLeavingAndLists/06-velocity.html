@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="vue.js"></script>
+    <meta charset="UTF-8">
+    <title>
+    </title>
+    <link href="animate.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <h3>
+    參考：<a href='http://velocityjs.org/' target='_blank'>http://velocityjs.org/</a>
+    </h3>
+    <!--
+Velocity works very much like jQuery.animate and is
+a great option for JavaScript animations
+-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
+    <div id="example-4">
+        <button @click="show = !show">
+            Toggle
+        </button>
+        <transition v-on:before-enter="beforeEnter" v-on:enter="enter" v-on:leave="leave" v-bind:css="false">
+            <p v-if="show">
+                Demo 台湾小凡，喜欢 vue.js2
+            </p>
+        </transition>
+    </div>
+    <script>
+    new Vue({
+        el: '#example-4',
+        data: {
+            show: false
+        },
+        methods: {
+            beforeEnter: function(el) {
+                el.style.opacity = 0
+            },
+            enter: function(el, done) {
+                Velocity(el, {
+                    opacity: 1,
+                    fontSize: '1.4em'
+                }, {
+                    duration: 300
+                })
+                Velocity(el, {
+                    fontSize: '1em'
+                }, {
+                    complete: done
+                })
+            },
+            leave: function(el, done) {
+                Velocity(el, {
+                    translateX: '15px',
+                    rotateZ: '50deg'
+                }, {
+                    duration: 600
+                })
+                Velocity(el, {
+                    rotateZ: '100deg'
+                }, {
+                    loop: 2
+                })
+                Velocity(el, {
+                    rotateZ: '45deg',
+                    translateY: '30px',
+                    translateX: '30px',
+                    opacity: 0
+                }, {
+                    complete: done
+                })
+            }
+        }
+    })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="vue.js"></script>
+    <meta charset="UTF-8">
+    <title>
+    </title>
+    <link href="animate.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <h3>
+    參考：<a href='https://daneden.github.io/animate.css/' target='_blank'>https://daneden.github.io/animate.css/</a>
+    </h3>
+    <div id="example-3">
+        <button @click="show = !show">
+            Toggle render
+        </button>
+        <transition v-on:before-enter="beforeEnter" v-on:enter="enter" v-on:after-enter="afterEnter" v-on:enter-cancelled="enterCancelled" v-on:before-leave="beforeLeave" v-on:leave="leave" v-on:after-leave="afterLeave" v-on:leave-cancelled="leaveCancelled">
+            <p v-if="show">hello 台湾小凡，喜欢 vue.js2</p>
+        </transition>
+    </div>
+    <script>
+    new Vue({
+        el: '#example-3',
+        data: {
+            show: true
+        },
+        methods: {
+            // --------
+            // ENTERING
+            // --------
+            beforeEnter: function(el) {
+                console.log('beforeEnter');
+                // ...
+            },
+            // the done callback is optional when
+            // used in combination with CSS
+            enter: function(el, done) {
+                // ...
+                done()
+            },
+            afterEnter: function(el) {
+                // ...
+            },
+            enterCancelled: function(el) {
+                // ...
+            },
+            // --------
+            // LEAVING
+            // --------
+            beforeLeave: function(el) {
+                // ...
+            },
+            // the done callback is optional when
+            // used in combination with CSS
+            leave: function(el, done) {
+                // ...
+                done()
+            },
+            afterLeave: function(el) {
+                // ...
+            },
+            // leaveCancelled only available with v-show
+            leaveCancelled: function(el) {
+                // ...
+            }
+        }
+    })
+    </script>
+</body>
+
+</html>

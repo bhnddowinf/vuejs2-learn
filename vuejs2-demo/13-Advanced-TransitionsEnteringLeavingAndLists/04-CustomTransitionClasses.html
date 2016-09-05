@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="vue.js"></script>
+    <meta charset="UTF-8">
+    <title>
+    </title>
+    <link href="animate.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <h3>
+    參考：<a href='https://daneden.github.io/animate.css/' target='_blank'>https://daneden.github.io/animate.css/</a>
+    </h3>
+    <div id="example-3">
+        <button @click="show = !show">
+            Toggle render
+        </button>
+        <transition
+        name="custom-classes-transition9999999999999999999999999999"
+        enter-active-class="animated flash"
+        leave-active-class="animated bounceOutUp">
+            <p v-if="show">hello 台湾小凡，喜欢 vue.js2</p>
+        </transition>
+    </div>
+    <script>
+    new Vue({
+        el: '#example-3',
+        data: {
+            show: true
+        }
+    })
+    </script>
+</body>
+
+</html>

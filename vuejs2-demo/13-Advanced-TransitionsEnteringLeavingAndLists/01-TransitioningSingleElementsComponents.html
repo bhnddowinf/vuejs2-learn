@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="vue.js"></script>
+    <meta charset="UTF-8">
+    <title>
+    </title>
+    <style>
+    .fade-enter-active,
+    .fade-leave-active {
+        transition: opacity .5s
+    }
+
+    .fade-enter,
+    .fade-leave-active {
+        opacity: 0
+    }
+    </style>
+</head>
+
+<body>
+    <div id="demo">
+        <button v-on:click="show = !show">
+            Toggle
+        </button>
+        <transition name="fade">
+            <p v-if="show">hello 台湾小凡，喜欢 vue.js2</p>
+        </transition>
+    </div>
+    <script>
+    new Vue({
+        el: '#demo',
+        data: {
+            show: true
+        }
+    })
+    </script>
+</body>
+
+</html>

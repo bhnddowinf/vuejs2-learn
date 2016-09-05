@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="vue.js"></script>
+    <meta charset="UTF-8">
+    <title>
+    </title>
+    <link href="https://npmcdn.com/animate.css@3.5.1/animate.min.css" rel="stylesheet" type="text/css">
+    <style>
+    .a1-enter {
+        padding-left: 10px;
+        opacity: 0;
+    }
+
+    .a2-enter-active {
+        transition: all .3s ease;
+    }
+    </style>
+</head>
+
+<body>
+    <div id="demo">
+        <button v-on:click="show = !show">
+            Toggle
+        </button>
+        <transition appear appear-class="a1" appear-active-class="a2" v-on:before-appear="customBeforeAppearHook" v-on:appear="customAppearHook" v-on:after-appear="customAfterAppearHook" ref="r1">
+            <p v-show="show" ref="p1">
+                transition appear 160905 有bug，只有回调，没有正常作用
+            </p>
+        </transition>
+        <transition name="custom-classes-transition" enter-active-class="animated tada" leave-active-class="animated bounceOutRight">
+            <p v-if="show">hello</p>
+        </transition>
+    </div>
+    <script>
+    var vm = new Vue({
+        el: '#demo',
+        data: {
+            show: true
+        },
+        methods: {
+            'customBeforeAppearHook': function(el) {
+                console.log('customBeforeAppearHook');
+            },
+            'customAppearHook': function(el) {
+                console.log('customAppearHook');
+            },
+            'customAfterAppearHook': function(el) {
+
+                console.log('customAfterAppearHook');
+            },
+
+        }
+    })
+    </script>
+</body>
+
+</html>

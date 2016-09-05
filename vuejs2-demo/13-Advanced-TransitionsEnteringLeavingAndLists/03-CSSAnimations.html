@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="vue.js"></script>
+    <meta charset="UTF-8">
+    <title>
+    </title>
+    <style>
+    .bounce-enter-active {
+        animation: bounce-in .5s;
+    }
+
+    .bounce-leave-active {
+        animation: bounce-out .5s;
+    }
+
+    @keyframes bounce-in {
+        0% {
+            transform: scale(0);
+        }
+        50% {
+            transform: scale(1.5);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+
+    @keyframes bounce-out {
+        0% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.5);
+        }
+        100% {
+            transform: scale(0);
+        }
+    }
+
+    Toggle show Look at me!
+    </style>
+</head>
+
+<body>
+    <div id="example-2">
+        <button @click="show = !show">Toggle show</button>
+        <transition name="bounce">
+            <p v-if="show">Look at me! 台湾小凡，喜欢 vue.js2</p>
+        </transition>
+    </div>
+    <script>
+    new Vue({
+        el: '#example-2',
+        data: {
+            show: true
+        }
+    })
+    </script>
+</body>
+
+</html>
