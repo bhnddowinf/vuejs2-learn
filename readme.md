@@ -14,8 +14,13 @@
 
   [vue.js 2 官网] (http://vuejs.org)
 
-  [http://vuefe.cn/] (http://vuefe.cn)
+  [http://vuefe.cn vue.js 2 中文网站] (http://vuefe.cn)
 
+  [http://vuefe.cn/about/ 贡献翻译群] (http://vuefe.cn/about/)
+
+  [从 Vue1.x 迁移] (http://vuefe.cn/guide/migration.html)
+
+  [从Vue Router 0.7.x迁移] (http://vuefe.cn/guide/migration-vue-router.html)
 
 #豪哥的QQ群
 
