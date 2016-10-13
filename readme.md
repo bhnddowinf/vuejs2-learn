@@ -12,9 +12,9 @@
 
 # vuejs 2 相关链结
 
-	[vue.js 2 官网] (http://vuejs.org)
+  [vue.js 2 官网] (http://vuejs.org)
 
-  [http://vuefe.cn/] (http://vuefe.cn/)
+  [http://vuefe.cn/] (http://vuefe.cn)
 
 
 #豪哥的QQ群
@@ -23,18 +23,18 @@
 
   小弟有幸能结交豪哥，以下是中国最专业的前端群
 
-* 	Vuejs 364912432
-* 	Angularjs 238251402
-* 	React 530415177
-* 	Nodejs 422910907
-*   JAVA高级开发群 145381037
-*   Python技术交流 130705066
-*   Hybrid App交流群 498173484
-*   PHP技术交流群 82254462
-*   UI设计么么哒群 321173051
-*   Go语言技术交流群 336195657
-*   ASP.NET C#技术交流群 461614624
-*   安卓IOS混合开发群 415074410
+  * 	Vuejs 364912432
+  * 	Angularjs 238251402
+  * 	React 530415177
+  * 	Nodejs 422910907
+  *   JAVA高级开发群 145381037
+  *   Python技术交流 130705066
+  *   Hybrid App交流群 498173484
+  *   PHP技术交流群 82254462
+  *   UI设计么么哒群 321173051
+  *   Go语言技术交流群 336195657
+  *   ASP.NET C#技术交流群 461614624
+  *   安卓IOS混合开发群 415074410
 
   仅供参考
 
