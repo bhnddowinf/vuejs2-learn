@@ -27,9 +27,13 @@
 # vue.js 2 vue-cli how to start
 
   sudo npm install -g vue-cli
+
   vue init webpack my-project
+  
   cd my-project
+  
   npm install
+  
   npm run dev
 
 

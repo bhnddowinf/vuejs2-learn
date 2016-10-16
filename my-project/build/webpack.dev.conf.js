@@ -6,13 +6,15 @@ var baseWebpackConfig = require('./webpack.base.conf')
 var HtmlWebpackPlugin = require('html-webpack-plugin')
 
 // add hot-reload related code to entry chunks
-Object.keys(baseWebpackConfig.entry).forEach(function (name) {
+Object.keys(baseWebpackConfig.entry).forEach(function(name) {
   baseWebpackConfig.entry[name] = ['./build/dev-client'].concat(baseWebpackConfig.entry[name])
 })
 
 module.exports = merge(baseWebpackConfig, {
   module: {
-    loaders: utils.styleLoaders({ sourceMap: config.dev.cssSourceMap })
+    loaders: utils.styleLoaders({
+      sourceMap: config.dev.cssSourceMap
+    })
   },
   // eval-source-map is faster for development
   devtool: '#eval-source-map',
@@ -29,15 +31,15 @@ module.exports = merge(baseWebpackConfig, {
       filename: 'index.html',
       template: 'index.html',
       inject: true,
-      chunks: ['app']
+      chunks: ['main'], //需要引入的chunk，不配置就会引入所有页面的资源
     }),
-    // v0201.html
+    // --------多頁 start
     new HtmlWebpackPlugin({
       filename: 'h0201.html',
       template: 'h0201.html',
       inject: true,
-      chunks: ['j0201']
+      chunks: ['j0201'], //需要引入的chunk，不配置就会引入所有页面的资源
     }),
-
+    // --------多頁 end
   ]
 })
