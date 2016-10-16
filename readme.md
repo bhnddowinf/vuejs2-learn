@@ -66,7 +66,7 @@
 
 #台湾小凡
 
-    ![](https://github.com/bhnddowinf/vuejs-learn/blob/master/03/img/Overview%20%E6%A6%82%E8%BF%B0.002.jpeg)
+![](https://github.com/bhnddowinf/vuejs-learn/blob/master/03/img/Overview%20%E6%A6%82%E8%BF%B0.002.jpeg)
 
     目前在台湾的中小企业
 
