@@ -7,7 +7,7 @@
     </p>
 
     <div align="center">
-    <a href='https://github.com/bhnddowinf/vuejs2-learn'>台湾小凡 vuejs2 官网讲解</a>>
+    <a href='https://github.com/bhnddowinf/vuejs2-learn'>台湾小凡 vuejs2 官网讲解</a>
     <ul>
       <li><a href='h0201.html'>h0201.html</a></li>
     </ul>
