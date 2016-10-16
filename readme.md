@@ -12,7 +12,11 @@
 
 # 视频位置
 
-![vue-cli 多页应用] https://youtu.be/J-0Vl68uKyY
+[vue-cli 多页应用 youtube] (https://youtu.be/J-0Vl68uKyY)
+
+[vue-cli 多页应用 百度云] (http://pan.baidu.com/s/1pL71opX)
+
+
 
 # 视频目的
 
