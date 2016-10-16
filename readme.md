@@ -14,7 +14,7 @@
 
   [台湾小凡 vuejs2demo] (https://bhnddowinf.github.io/bhnddowinf/vuejs2demo/index.html) 台湾小凡 vue.js2 的 demo
 
-  [vue.js 2 官网] (http://vuejs.org) 这是正式的 vue.js2 尤雨溪大神的网站
+  [vue.js 2 官网] (http://vuejs.org) 正式 vue.js2 尤雨溪大神 官方网站
 
   [http://vuefe.cn vue.js 2 中文网站] (http://vuefe.cn) vue2 全家桶中文网站
 
