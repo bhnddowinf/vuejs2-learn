@@ -22,7 +22,19 @@
 
   [从Vue Router 0.7.x迁移] (http://vuefe.cn/guide/migration-vue-router.html)
 
-#豪哥的QQ群
+  [vuejs/vue-cli: Simple CLI for scaffolding Vue.js projects] (https://github.com/vuejs/vue-cli)
+
+# vue.js 2 vue-cli how to start
+
+  sudo npm install -g vue-cli
+  vue init webpack my-project
+  cd my-project
+  npm install
+  npm run dev
+
+
+
+# 豪哥的QQ群
 
   小弟在中国有一个爱好前端的朋友，网名：豪情，不断贡献自已的知识分享最先进的前端资讯，带领着很多人学习前端。
 
