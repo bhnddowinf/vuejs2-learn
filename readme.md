@@ -66,6 +66,8 @@
 
 #台湾小凡
 
+    ![](https://github.com/bhnddowinf/vuejs2-learn/blob/master/me.jpeg)
+
     目前在台湾的中小企业
 
     担任资讯研发部副理
