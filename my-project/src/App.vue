@@ -7,9 +7,11 @@
     </p>
 
     <div align="center">
-    <a href='https://github.com/bhnddowinf/vuejs2-learn'>台湾小凡 vuejs2 官网讲解</a>
+    <a href='https://github.com/bhnddowinf/vuejs2-learn'>台湾小凡 Vue.Js 2 官网讲解</a>
+    <h3>VueJs 豪哥的QQ群：364912432</h3>
+    <h3>Vue.Js 2 全家桶起步篇</h3>
     <ul>
-      <li><a href='h0201.html'>h0201.html</a></li>
+      <li><a href='h0201.html'>(01) Hello 组件</a></li>
     </ul>
     </div>
   </div>
