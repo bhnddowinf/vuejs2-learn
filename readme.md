@@ -2,7 +2,19 @@
 
   vue.js 2 官网讲解
 
-# 视频的目的
+  1.全程用 vue-cli 讲解
+
+  2.所有代码在 https://github.com/bhnddowinf/vuejs2-learn ，你 copy 改改，就好。
+
+  3.所有代码 demo 在 https://bhnddowinf.github.io/bhnddowinf/vuejs2demo/index.html
+
+  4.所有章节视频会在 Youtube, 百度云
+
+# 视频位置
+
+![vue-cli 多页应用] https://youtu.be/J-0Vl68uKyY
+
+# 视频目的
 
   网路上有很多 VUE 综合应用的视频，但大部份的视频 ，都当你已经了解官网
   所以讲的节奏难免偏快。
@@ -26,18 +38,18 @@
 
   [vuejs/vue-cli: Simple CLI for scaffolding Vue.js projects] (https://github.com/vuejs/vue-cli) vue-cli
 
-  
+
 
 # vue.js 2 vue-cli how to start
 
   sudo npm install -g vue-cli
 
   vue init webpack my-project
-  
+
   cd my-project
-  
+
   npm install
-  
+
   npm run dev
 
 
