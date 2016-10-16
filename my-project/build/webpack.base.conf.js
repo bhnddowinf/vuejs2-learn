@@ -6,7 +6,9 @@ var projectRoot = path.resolve(__dirname, '../')
 module.exports = {
   entry: {
     main: './src/main.js',
-    j0201: './src/vuejs2-demo/02-GattingStarted/j0201.js' // 多页 j0201.js
+    j0201: './src/vuejs2-demo/02-GattingStarted/j0201.js', // 多页 j0201.js
+    j0202: './src/vuejs2-demo/02-GattingStarted/j0202.js', // 多页 j0202.js
+
   },
   output: {
     path: config.build.assetsRoot,

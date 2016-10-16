@@ -41,5 +41,14 @@ module.exports = merge(baseWebpackConfig, {
       chunks: ['j0201'], //需要引入的chunk，不配置就会引入所有页面的资源
     }),
     // --------多頁 end
+    // --------多頁 start
+    new HtmlWebpackPlugin({
+      filename: 'h0202.html',
+      template: 'h0202.html',
+      inject: true,
+      chunks: ['j0202'], //需要引入的chunk，不配置就会引入所有页面的资源
+    }),
+    // --------多頁 end
+
   ]
 })

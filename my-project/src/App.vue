@@ -12,6 +12,7 @@
     <h3>Vue.Js 2 全家桶起步篇</h3>
     <ul>
       <li><a href='h0201.html'>(01) Hello 组件</a></li>
+      <li><a href='h0202.html'>(02) 声明式渲染</a></li>
     </ul>
     </div>
   </div>
