@@ -12,7 +12,7 @@
 
 # 视频位置
 
-[vue-cli 多页应用 youtube] (https://youtu.be/J-0Vl68uKyY) 因为讲解 npm run dev , npm run build  这两种分页，所以会讲这么40分钟这么久。自已有经验的话，看代码来抄，比较快，真的是初学者，还是建议看完吧，没有人会讲这么细。
+[vue-cli 多页应用 youtube] (https://youtu.be/J-0Vl68uKyY) 因为讲解 npm run dev , npm run build  这两种多页设置，所以会讲这么40分钟这么久。自已有经验的话，看代码来抄，比较快，真的是初学者，还是建议看完吧，没有人会讲这么细。
 
 [vue-cli 多页应用 百度云] (http://pan.baidu.com/s/1pL71opX)
 
