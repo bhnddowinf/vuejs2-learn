@@ -24,6 +24,8 @@
 
   [vuejs/vue-cli: Simple CLI for scaffolding Vue.js projects] (https://github.com/vuejs/vue-cli)
 
+  [台湾小凡 vuejs2demo] (https://github.com/bhnddowinf/bhnddowinf/tree/master/vuejs2demo)
+
 # vue.js 2 vue-cli how to start
 
   sudo npm install -g vue-cli

@@ -8,8 +8,10 @@ module.exports = {
     h0201: path.resolve(__dirname, '../dist/h0201.html'),
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: '/',
+    //assetsPublicPath: '/',
 
+    // https://bhnddowinf.github.io/bhnddowinf/vuejs2demo/index.html
+    assetsPublicPath: '/bhnddowinf/vuejs2demo/',
     // npm run build, 放到网站上时，要改目录
     //assetsPublicPath: '/github/vuejs2-learn/my-project/dist/',
     productionSourceMap: true,
