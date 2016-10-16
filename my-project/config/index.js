@@ -8,10 +8,10 @@ module.exports = {
     h0201: path.resolve(__dirname, '../dist/h0201.html'),
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-    //assetsPublicPath: '/',
+    assetsPublicPath: '/',
 
     // npm run build, 放到网站上时，要改目录
-    assetsPublicPath: '/github/vuejs2-learn/my-project/dist/',
+    //assetsPublicPath: '/github/vuejs2-learn/my-project/dist/',
     productionSourceMap: true,
     // Gzip off by default as many popular static hosts such as
     // Surge or Netlify already gzip all static assets for you.
