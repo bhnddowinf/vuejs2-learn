@@ -24,7 +24,7 @@
 
   [vuejs/vue-cli: Simple CLI for scaffolding Vue.js projects] (https://github.com/vuejs/vue-cli)
 
-  [台湾小凡 vuejs2demo] (https://github.com/bhnddowinf/bhnddowinf/tree/master/vuejs2demo)
+  [台湾小凡 vuejs2demo] (https://bhnddowinf.github.io/bhnddowinf/vuejs2demo/index.html)
 
 # vue.js 2 vue-cli how to start
 
