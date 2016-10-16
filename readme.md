@@ -16,15 +16,15 @@
 
   [vue.js 2 官网] (http://vuejs.org) 这是正式的 vue.js2 尤雨溪大神的网站
 
-  [http://vuefe.cn vue.js 2 中文网站] (http://vuefe.cn) 一堆热心 vue.js2 发展，制作的 vue2 全家桶中文网站
+  [http://vuefe.cn vue.js 2 中文网站] (http://vuefe.cn) vue2 全家桶中文网站
 
-  [http://vuefe.cn/about/ 贡献翻译群] (http://vuefe.cn/about/) vue2 全家桶中文网站
+  [http://vuefe.cn/about/ 贡献翻译群] (http://vuefe.cn/about/) vue2 全家桶中文网站翻译群，衷心感谢，贡献心力制作
 
   [从 Vue1.x 迁移] (http://vuefe.cn/guide/migration.html) 怎么从 vue1 升级至 vue2，升级指南
 
   [从Vue Router 0.7.x迁移] (http://vuefe.cn/guide/migration-vue-router.html) vue-router 升级指南
 
-  [vuejs/vue-cli: Simple CLI for scaffolding Vue.js projects] (https://github.com/vuejs/vue-cli)
+  [vuejs/vue-cli: Simple CLI for scaffolding Vue.js projects] (https://github.com/vuejs/vue-cli) vue-cli
 
   
 
@@ -66,7 +66,7 @@
 
 #台湾小凡
 
-![](https://github.com/bhnddowinf/vuejs-learn/blob/master/03/img/Overview%20%E6%A6%82%E8%BF%B0.002.jpeg)
+![](https://github.com/bhnddowinf/vuejs2-learn/blob/master/me.jpeg?raw=true)
 
     目前在台湾的中小企业
 
