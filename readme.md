@@ -42,6 +42,7 @@
 
   [vuejs/vue-cli: Simple CLI for scaffolding Vue.js projects] (https://github.com/vuejs/vue-cli) vue-cli
 
+  [最完整 vue 資源合集] (https://github.com/vuejs/awesome-vue) awesome-vue
 
 
 # vue.js 2 vue-cli how to start
@@ -111,4 +112,3 @@
   →→→→[请大力的鼓励作者] (https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=77E3EEHBD3N5C)
 
   ![](https://github.com/bhnddowinf/vuejs-learn/blob/master/03/wechat_qrcode.png)
-
