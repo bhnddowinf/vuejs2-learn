@@ -34,23 +34,23 @@
 
 # vuejs 2 相关链结
 
-  [台湾小凡 vuejs2demo] (https://bhnddowinf.github.io/bhnddowinf/vuejs2demo/index.html) 台湾小凡 vue.js2 的 demo
+- [台湾小凡 vuejs2demo] (https://bhnddowinf.github.io/bhnddowinf/vuejs2demo/index.html) 台湾小凡 vue.js2 的 demo
 
-  [vue.js 2 官网] (http://vuejs.org) 正式 vue.js2 尤雨溪大神 官方网站
+- [vue.js 2 官网] (http://vuejs.org) 正式 vue.js2 尤雨溪大神 官方网站
 
-  [http://vuefe.cn vue.js 2 中文网站] (http://vuefe.cn) vue2 全家桶中文网站
+- [http://vuefe.cn vue.js 2 中文网站] (http://vuefe.cn) vue2 全家桶中文网站
 
-  [http://vuefe.cn/about/ 贡献翻译群] (http://vuefe.cn/about/) vue2 全家桶中文网站翻译群，衷心感谢，贡献心力制作
+- [http://vuefe.cn/about/ 贡献翻译群] (http://vuefe.cn/about/) vue2 全家桶中文网站翻译群，衷心感谢，贡献心力制作
 
-  [从 Vue1.x 迁移] (http://vuefe.cn/guide/migration.html) 怎么从 vue1 升级至 vue2，升级指南
+- [从 Vue1.x 迁移] (http://vuefe.cn/guide/migration.html) 怎么从 vue1 升级至 vue2，升级指南
 
-  [从Vue Router 0.7.x迁移] (http://vuefe.cn/guide/migration-vue-router.html) vue-router 升级指南
+- [从Vue Router 0.7.x迁移] (http://vuefe.cn/guide/migration-vue-router.html) vue-router 升级指南
 
-  [vuejs/vue-cli: Simple CLI for scaffolding Vue.js projects] (https://github.com/vuejs/vue-cli) vue-cli
+- [vuejs/vue-cli: Simple CLI for scaffolding Vue.js projects] (https://github.com/vuejs/vue-cli) vue-cli
 
-  [最完整 vue 資源合集] (https://github.com/vuejs/awesome-vue) awesome-vue
+- [最完整 vue 資源合集] (https://github.com/vuejs/awesome-vue) awesome-vue
 
-  [vuex 原文文档] (http://vuex.vuejs.org/en/index.html)
+- [vuex 原文文档] (http://vuex.vuejs.org/en/index.html) 尤雨溪大神
 
 # vue.js 2 vue-cli how to start
 
