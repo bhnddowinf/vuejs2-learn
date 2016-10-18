@@ -1,7 +1,7 @@
 
 # vuex 原文文档 for Vue.js 2 (尤雨溪大神)
 
-  http://vuex.vuejs.org/en/index.html
+-  http://vuex.vuejs.org/en/index.html
 
 # 1.如何安装 vuex (限定开发环境为 vue-cli)
 
@@ -21,23 +21,23 @@
 
 # 2.什么是 Vuex
 
-  http://vuefe.cn/vuex/intro.html
+-  http://vuefe.cn/vuex/intro.html
 
 # 3.起步
 
-  http://vuefe.cn/vuex/getting-started.html
+-  http://vuefe.cn/vuex/getting-started.html
 
 # 4.State
 
-  http://vuefe.cn/vuex/state.html
+-  http://vuefe.cn/vuex/state.html
 
 # 5.Getters
 
-  http://vuefe.cn/vuex/getters.html
+ - http://vuefe.cn/vuex/getters.html
 
 # 6.Mutations
 
-  http://vuefe.cn/vuex/mutations.html
+ - http://vuefe.cn/vuex/mutations.html
 
 # 7.Actions
 
