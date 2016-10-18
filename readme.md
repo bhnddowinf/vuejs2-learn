@@ -1,4 +1,4 @@
-# 视频主旨
+# 教程主旨
 
   vue.js 2 官网讲解
 
@@ -10,7 +10,7 @@
 
   4.所有章节视频会在 Youtube, 百度云
 
-# 视频位置
+# 系列教程
 
 ## 1.vue-cli 多页应用
 
@@ -24,7 +24,7 @@
 
   2-1.[vuex 台湾小凡教程文档] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/vuex-learn.md)
 
-# 视频目的
+# 教程目的
 
   网路上有很多 VUE 综合应用的视频，但大部份的视频 ，都当你已经了解官网
   所以讲的节奏难免偏快。
