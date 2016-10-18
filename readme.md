@@ -16,7 +16,7 @@
 
 [vue-cli 多页应用 百度云] (http://pan.baidu.com/s/1pL71opX)
 
-
+[vuex 台湾小凡教程文档] ()
 
 # 视频目的
 
