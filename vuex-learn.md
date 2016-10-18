@@ -3,9 +3,9 @@
 
 -  http://vuex.vuejs.org/en/index.html
 
-! [vuex flow] (http://vuefe.cn/vuex/images/flow.png)
+![vuex flow](http://vuefe.cn/vuex/images/flow.png)
 
-! [vuex flow 2] (http://vuefe.cn/vuex/images/vuex.png)
+![vuex flow 2](http://vuefe.cn/vuex/images/vuex.png)
 
 # 1.如何安装 vuex (限定开发环境为 vue-cli)
 
