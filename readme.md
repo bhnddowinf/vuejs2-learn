@@ -50,6 +50,7 @@
 
   [最完整 vue 資源合集] (https://github.com/vuejs/awesome-vue) awesome-vue
 
+  [vuex 原文文档] (http://vuex.vuejs.org/en/index.html)
 
 # vue.js 2 vue-cli how to start
 
