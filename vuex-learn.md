@@ -1,7 +1,9 @@
 
 # vuex 原文文档 for Vue.js 2 (尤雨溪大神)
 
--  http://vuex.vuejs.org/en/index.html
+- http://vuex.vuejs.org/en/index.html
+
+- https://github.com/vuejs/vuex
 
 ![vuex flow](http://vuefe.cn/vuex/images/flow.png)
 
