@@ -48,13 +48,13 @@
 
 -  http://vuefe.cn/vuex/getting-started.html
 
-##1.学习 es2015
+## 3-1.学习 es2015
 
     https://babeljs.io/docs/learn-es2015/
 
     这是 很重要的章节，在此只简单介绍，不然认真讲，至少要2小时
 
-##2.vuex 增加、减少 示例
+## 3-2.vuex 增加、减少 示例
 
     https://jsfiddle.net/yyx990803/n9jmu5v7/
 
