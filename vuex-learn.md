@@ -29,7 +29,15 @@
 
 # 2.什么是 Vuex
 
--  http://vuefe.cn/vuex/intro.html
+- http://vuefe.cn/vuex/intro.html
+
+- 讲解：此文中，有代码，实际上要在 vue-cli 呈现出来为何？
+
+    - https://bhnddowinf.github.io/bhnddowinf/vuejs2demo/vuex01.html
+
+    - https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuex-demo/j01.js
+
+    - https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuex-demo/v01.vue
 
 # 3.起步
 
