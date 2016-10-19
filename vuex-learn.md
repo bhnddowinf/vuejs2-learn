@@ -44,6 +44,18 @@
 
 -  http://vuefe.cn/vuex/getting-started.html
 
+讲解：
+
+1.https://babeljs.io/docs/learn-es2015/
+
+    这是 很重要的章节，在此只简单介绍，不然认真讲，至少要2小时
+
+2.https://jsfiddle.net/yyx990803/n9jmu5v7/
+
+    这是尤雨溪大神写的 vuex ，加、减示例，小凡在此用 vue-cli 呈现。
+    
+
+
 # 4.State
 
 -  http://vuefe.cn/vuex/state.html
