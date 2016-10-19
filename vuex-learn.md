@@ -30,18 +30,13 @@
 # 2.什么是 Vuex
 
 - http://vuefe.cn/vuex/intro.html
-
 - 讲解：此章节中，有代码，实际上要在 vue-cli 呈现出来为何？
-
-    state (状态)，驱动我们应用的真实的源；
-    view (视图)，对应着 状态 的声明式映射；
-    actions (动作)，用户在 视图 上的输入引起状态的更改的可能方式。
-
-    - demo https://bhnddowinf.github.io/bhnddowinf/vuejs2demo/vuex01.html
-
-    - 源码 https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuex-demo/j01.js
-
-    - 源码 https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuex-demo/v01.vue
+- state (状态)，驱动我们应用的真实的源；
+- view (视图)，对应着 状态 的声明式映射；
+- actions (动作)，用户在 视图 上的输入引起状态的更改的可能方式。
+- demo https://bhnddowinf.github.io/bhnddowinf/vuejs2demo/vuex01.html
+- 源码 https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuex-demo/j01.js
+- 源码 https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuex-demo/v01.vue
 
 # 3.起步
 
