@@ -15,6 +15,8 @@
             </ul>
             <ul>
                 <li><a href='vuex01.html'>(vuex)(01) 什么是 vuex </a></li>
+                <li><a href='vuex02.html'>(vuex)(02) vuex 增加、减少示例 </a></li>
+
             </ul>
         </div>
     </div>
