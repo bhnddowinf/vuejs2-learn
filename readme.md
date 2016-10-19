@@ -52,7 +52,7 @@
 
 - [vuex 原文文档] (http://vuex.vuejs.org/en/index.html) 尤雨溪大神
 
-# 國外 ajax 主流插件 (vue-resource 尤雨溪大神，不更新了)
+# 國外 ajax 主流插件 (vue-resource 作者不更新了)
 
 - https://github.com/github/fetch
 
