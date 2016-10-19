@@ -49,6 +49,13 @@ module.exports = merge(baseWebpackConfig, {
       chunks: ['j0202'], //需要引入的chunk，不配置就会引入所有页面的资源
     }),
     // --------多頁 end
-
+    // --------多頁 start
+    new HtmlWebpackPlugin({
+      filename: 'vuex01.html',
+      template: 'views/vuex01.html',
+      inject: true,
+      chunks: ['vuex01'], //需要引入的chunk，不配置就会引入所有页面的资源
+    }),
+    // --------多頁 end
   ]
 })

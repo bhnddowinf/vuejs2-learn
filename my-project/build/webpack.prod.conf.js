@@ -110,7 +110,20 @@ var webpackConfig = merge(baseWebpackConfig, {
       chunksSortMode: 'dependency'
     }),
     //----------多页 end
-
+    //----------多页 start
+    new HtmlWebpackPlugin({
+      filename: '../dist/vuex01.html',
+      template: 'views/vuex01.html',
+      inject: true,
+      minify: {
+        removeComments: true,
+        collapseWhitespace: true,
+        removeAttributeQuotes: true
+      },
+      chunks: ['manifest', 'vendor', 'vuex01'], //需要引入的chunk，不配置就会引入所有页面的资源
+      chunksSortMode: 'dependency'
+    }),
+    //----------多页 end
   ]
 })
 if (config.build.productionGzip) {

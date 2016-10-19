@@ -8,6 +8,7 @@ module.exports = {
     main: './src/main.js',
     j0201: './src/vuejs2-demo/02-GattingStarted/j0201.js', // 多页 j0201.js
     j0202: './src/vuejs2-demo/02-GattingStarted/j0202.js', // 多页 j0202.js
+    vuex01: './src/vuex-demo/j01.js', // vuex01
   },
   output: {
     path: config.build.assetsRoot,
