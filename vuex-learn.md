@@ -46,22 +46,22 @@
 
 # 3.起步
 
--  http://vuefe.cn/vuex/getting-started.html
+- http://vuefe.cn/vuex/getting-started.html
 
 ## 3-1.学习 es2015
 
-    https://babeljs.io/docs/learn-es2015/
+- https://babeljs.io/docs/learn-es2015/
 
     这是 很重要的章节，在此只简单介绍，不然认真讲，至少要2小时
 
 ## 3-2.vuex 增加、减少 示例
 
-    这是尤雨溪大神写的 vuex ，加、减示例，小凡在此用 vue-cli 呈现。
+这是尤雨溪大神写的 vuex ，加、减示例，小凡在此用 vue-cli 呈现。
 
-    - demo https://bhnddowinf.github.io/bhnddowinf/vuejs2demo/vuex02.html
-    - 源码 https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuex-demo/v02_app.js
-    - 源码 https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuex-demo/v02_counter.vue
-    - 源码 https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuex-demo/v02_store.js
+- demo https://bhnddowinf.github.io/bhnddowinf/vuejs2demo/vuex02.html
+- 源码 https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuex-demo/v02_app.js
+- 源码 https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuex-demo/v02_counter.vue
+- 源码 https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuex-demo/v02_store.js
 
 # 4.State
 
