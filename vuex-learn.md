@@ -50,9 +50,11 @@
 
 ## 3-1.学习 es2015
 
-- https://babeljs.io/docs/learn-es2015/
+- https://babeljs.io/docs/learn-es2015/ 官网推的 学习 es2015网址，看得蛮累的
 
-    这是 很重要的章节，在此只简单介绍，不然认真讲，至少要2小时
+- http://es6.ruanyifeng.com/#README 阮一峰着 ，看这个比较好理解
+
+  虽然这是很重要的章节，在此只简单介绍，不然认真讲，至少要2小时
 
 ## 3-2.vuex 增加、减少 示例
 
@@ -62,6 +64,7 @@
 - 源码 https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuex-demo/v02_app.js
 - 源码 https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuex-demo/v02_counter.vue
 - 源码 https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuex-demo/v02_store.js
+- 
 
 # 4.State
 
