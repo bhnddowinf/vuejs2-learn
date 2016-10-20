@@ -8,15 +8,15 @@
         <div align="center">
             <a href='https://github.com/bhnddowinf/vuejs2-learn'>台湾小凡 Vue.Js 2 官网讲解</a>
             <h3>VueJs 豪哥的QQ群：364912432</h3>
-            <h3>Vue.Js 2 全家桶起步篇</h3>
+            <h3>第01章：多頁應用</h3>
             <ul>
                 <li><a href='h0201.html'>(01) Hello 组件</a></li>
                 <li><a href='h0202.html'>(02) 声明式渲染</a></li>
             </ul>
+            <h3>第02章：Vuex</h3>
             <ul>
                 <li><a href='vuex01.html'>(vuex)(01) 什么是 vuex </a></li>
                 <li><a href='vuex02.html'>(vuex)(02) vuex 增加、减少示例 </a></li>
-
             </ul>
         </div>
     </div>

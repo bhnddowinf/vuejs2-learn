@@ -1,12 +1,13 @@
 <template>
     <div>
+        <!--file : /my-project/src/vuex-demo/v01.vue -->
         <!--// view (视图) -->
-        {{ count }}
+        <h1>{{ count }}</h1>
         <button @click="increment">count + 1</button>
     </div>
 </template>
 <script>
-// my-project\src\vuex-demo\v01.vue
+
 
 export default {
     // state (状态)

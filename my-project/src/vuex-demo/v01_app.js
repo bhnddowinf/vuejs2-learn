@@ -1,7 +1,7 @@
+//--file--- my-project\src\vuex-demo\v01_app.js
+
 import Vue from 'vue'
 import App from './v01.vue'
-
-// my-project\src\vuex-demo\j01.js
 
 /* eslint-disable no-new */
 new Vue({
