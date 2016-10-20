@@ -41,7 +41,7 @@
     3.actions (动作)，用户在 视图 上的输入引起状态的更改的可能方式。
 
     - demo https://bhnddowinf.github.io/bhnddowinf/vuejs2demo/vuex01.html
-    - 源码 https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuex-demo/j01.js
+    - 源码 https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuex-demo/v01_app.js
     - 源码 https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuex-demo/v01.vue
 
 # 3.起步
@@ -56,10 +56,12 @@
 
 ## 3-2.vuex 增加、减少 示例
 
-    https://jsfiddle.net/yyx990803/n9jmu5v7/
-
     这是尤雨溪大神写的 vuex ，加、减示例，小凡在此用 vue-cli 呈现。
 
+    - demo https://bhnddowinf.github.io/bhnddowinf/vuejs2demo/vuex02.html
+    - 源码 https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuex-demo/v02_app.js
+    - 源码 https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuex-demo/v02_counter.vue
+    - 源码 https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuex-demo/v02_store.js
 
 # 4.State
 
