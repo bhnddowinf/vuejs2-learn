@@ -4,7 +4,7 @@ import Vuex from 'vuex'
 Vue.use(Vuex)
 
 // ----翻译限制：
-//    小凡 (state ，小凡不翻譯，这样子大脑才会有逻辑，
+//    小凡 (state ，小凡不翻译，这样子大脑才会有逻辑，
 //    用「状态」「状态」来翻，中文的理解是卡死的
 //    而且 state 一会用在参数，一会用在抽象的专有名词
 //    这个词，是同名多义，用中文翻，有坑)
@@ -12,7 +12,7 @@ Vue.use(Vuex)
 // root state object.
 // 小凡( 根 state 物件)
 // each Vuex instance is just a single state tree.
-// 小凡 (每個 Vuex實例是單獨的 state 樹)
+// 小凡 (每个 Vuex实例是单独的 state 树)
 const state = {
     count: 0
   }
@@ -22,14 +22,14 @@ const state = {
   //   此两者硬翻，反而大脑又卡死了，请自已记忆下来
   //
   // mutations are operations that actually mutates the state.
-  // 小凡 (當執行程式時 state 突然發生變化之行為，稱為 mutations)
+  // 小凡 (当执行程序时 state 突然发生变化之行为，称为 mutations)
   // each mutation handler gets the entire state tree as the first argument
-  // 小凡 (每一个 mutation管理者，第一个参数为 完整的state 樹)
+  // 小凡 (每一个 mutation管理者，第一个参数为 完整的state 树)
   //, followed by additional payload arguments.
   // 小凡 (其次是附加的装载参数)
   // mutations must be synchronous and can be recorded by plugins
   // for debugging purposes.
-  // 小凡 (mutations 須是同步的，並且可以通過插件或調試目的記錄)
+  // 小凡 (mutations 须是同步的，并且可以通过插件或调试目的记录)
 const mutations = {
   increment(state) {
     state.count++
