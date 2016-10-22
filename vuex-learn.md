@@ -94,9 +94,19 @@
 
 -  http://vuefe.cn/vuex/modules.html
 
+> ### counter 模块化 demo
+> https://bhnddowinf.github.io/bhnddowinf/vuejs2demo/counter_hot.html
+
 # 9.应用结构
 
 -  http://vuefe.cn/vuex/structure.html
+
+> ### ToDo demo
+> https://bhnddowinf.github.io/bhnddowinf/vuejs2demo/todomvc.html
+
+
+> ### Shooping Cart demo
+> https://bhnddowinf.github.io/bhnddowinf/vuejs2demo/shopping_cart.html
 
 # 10.插件
 
