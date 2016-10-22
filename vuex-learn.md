@@ -35,8 +35,11 @@
 - 讲解：此章节中，有代码，实际上要在 vue-cli 呈现出来为何？
 
 > ### 建立下述观念：
+
 > 1. state (状态)，驱动我们应用的真实的源；
+
 > 2. view (视图)，对应着 状态 的声明式映射；
+
 > 3. actions (动作)，用户在 视图 上的输入引起状态的更改的可能方式。
 
 
@@ -92,14 +95,14 @@
 > ### 阮一峰 (es6 Module)
 > http://es6.ruanyifeng.com/#docs/module
 
-# 8.Modules
+# 4.Modules
 
 -  http://vuefe.cn/vuex/modules.html
 
 > ### counter 模块化 demo
 > https://bhnddowinf.github.io/bhnddowinf/vuejs2demo/counter_hot.html
 
-# 9.应用结构
+# 5.应用结构
 
 -  http://vuefe.cn/vuex/structure.html
 
@@ -109,29 +112,28 @@
 
 > ### Shooping Cart demo
 > https://bhnddowinf.github.io/bhnddowinf/vuejs2demo/shopping_cart.html
-
-# 10.插件
+610.插件
 
 -  http://vuefe.cn/vuex/plugins.html
 
-# 11.严格模式
+# 7.严格模式
 
 -  http://vuefe.cn/vuex/strict.html
 
 
-# 4.State
+# 8.State
 
 -  http://vuefe.cn/vuex/state.html
 
-# 5.Getters
+# 9.Getters
 
  - http://vuefe.cn/vuex/getters.html
 
-# 6.Mutations
+# 10.Mutations
 
  - http://vuefe.cn/vuex/mutations.html
 
-# 7.Actions
+# 11.Actions
 
 -  http://vuefe.cn/vuex/actions.html
 
