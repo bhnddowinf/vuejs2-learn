@@ -86,6 +86,10 @@
 > https://strongloop.com/strongblog/an-introduction-to-javascript-es6-modules/
 > https://segmentfault.com/a/1190000004100661
 
+
+> ### 阮一峰 (es6 Module)
+> http://es6.ruanyifeng.com/#docs/module
+
 # 8.Modules
 
 -  http://vuefe.cn/vuex/modules.html
