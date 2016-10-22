@@ -95,7 +95,7 @@
 > ### 阮一峰 (es6 Module)
 > http://es6.ruanyifeng.com/#docs/module
 
-# 4.Modules
+# 4.Modules 模块化
 
 -  http://vuefe.cn/vuex/modules.html
 
