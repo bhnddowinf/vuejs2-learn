@@ -72,7 +72,7 @@
 
 因为vuex，本身简单
 
-那为何初学者原尤神的代码会抓瞎呢？
+那为何初学者, 看尤雨溪大神的的vuex代码，常常会抓瞎呢？
 
 因为…es2015模块化
 
@@ -82,6 +82,9 @@
 
 ```
 
+> ### es 2015模块化 好文
+> https://strongloop.com/strongblog/an-introduction-to-javascript-es6-modules/
+> https://segmentfault.com/a/1190000004100661
 
 # 8.Modules
 
