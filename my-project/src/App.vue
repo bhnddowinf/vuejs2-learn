@@ -16,7 +16,10 @@
             <h3>第02章：Vuex</h3>
             <ul>
                 <li><a href='vuex01.html'>(vuex)(01) 什么是 vuex </a></li>
-                <li><a href='vuex02.html'>(vuex)(02) vuex 增加、减少示例 </a></li>
+                <li><a href='vuex02.html'>(vuex)(02) vuex 增加、减少 示例 </a></li>
+                <li><a href='counter_hot.html'>(vuex)(03) vuex 增加、减少 模块化 示例 </a></li>
+                <li><a href='todomvc.html'>(vuex)(04) Todo 示例 </a></li>
+                <li><a href='shopping_cart.html'>(vuex)(05) Shopping cart 示例 </a></li>
             </ul>
         </div>
     </div>

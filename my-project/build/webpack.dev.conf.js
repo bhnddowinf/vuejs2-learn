@@ -65,6 +65,29 @@ module.exports = merge(baseWebpackConfig, {
       chunks: ['vuex02'], //需要引入的chunk，不配置就会引入所有页面的资源
     }),
     // --------多頁 end
-
+    // --------多頁 start
+    new HtmlWebpackPlugin({
+      filename: 'counter_hot.html',
+      template: 'src/vuex-demo/counter-hot/index.html',
+      inject: true,
+      chunks: ['counter_hot'], //需要引入的chunk，不配置就会引入所有页面的资源
+    }),
+    // --------多頁 end
+    // --------多頁 start
+    new HtmlWebpackPlugin({
+      filename: 'shopping_cart.html',
+      template: 'src/vuex-demo/shopping-cart/index.html',
+      inject: true,
+      chunks: ['shopping_cart'], //需要引入的chunk，不配置就会引入所有页面的资源
+    }),
+    // --------多頁 end
+    // --------多頁 start
+    new HtmlWebpackPlugin({
+      filename: 'todomvc.html',
+      template: 'src/vuex-demo/todomvc/index.html',
+      inject: true,
+      chunks: ['todomvc'], //需要引入的chunk，不配置就会引入所有页面的资源
+    }),
+    // --------多頁    end
   ]
 })

@@ -138,6 +138,49 @@ var webpackConfig = merge(baseWebpackConfig, {
       chunksSortMode: 'dependency'
     }),
     //----------多页 end
+
+    //----------多页 start
+    new HtmlWebpackPlugin({
+      filename: '../dist/counter_hot.html',
+      template: 'src/vuex-demo/counter-hot/index.html',
+      inject: true,
+      minify: {
+        removeComments: true,
+        collapseWhitespace: true,
+        removeAttributeQuotes: true
+      },
+      chunks: ['manifest', 'vendor', 'counter_hot'], //需要引入的chunk，不配置就会引入所有页面的资源
+      chunksSortMode: 'dependency'
+    }),
+    //----------多页 end
+    //----------多页 start
+    new HtmlWebpackPlugin({
+      filename: '../dist/shopping_cart.html',
+      template: 'src/vuex-demo/shopping-cart/index.html',
+      inject: true,
+      minify: {
+        removeComments: true,
+        collapseWhitespace: true,
+        removeAttributeQuotes: true
+      },
+      chunks: ['manifest', 'vendor', 'shopping_cart'], //需要引入的chunk，不配置就会引入所有页面的资源
+      chunksSortMode: 'dependency'
+    }),
+    //----------多页 end
+    //----------多页 start
+    new HtmlWebpackPlugin({
+      filename: '../dist/todomvc.html',
+      template: 'src/vuex-demo/todomvc/index.html',
+      inject: true,
+      minify: {
+        removeComments: true,
+        collapseWhitespace: true,
+        removeAttributeQuotes: true
+      },
+      chunks: ['manifest', 'vendor', 'todomvc'], //需要引入的chunk，不配置就会引入所有页面的资源
+      chunksSortMode: 'dependency'
+    }),
+    //----------多页 end
   ]
 })
 if (config.build.productionGzip) {

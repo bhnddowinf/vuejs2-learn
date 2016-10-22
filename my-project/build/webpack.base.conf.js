@@ -10,6 +10,9 @@ module.exports = {
     j0202: './src/vuejs2-demo/02-GattingStarted/j0202.js', // 多页 j0202.js
     vuex01: './src/vuex-demo/v01_app.js', // vuex01
     vuex02: './src/vuex-demo/v02_app.js', // vuex02
+    counter_hot: './src/vuex-demo/counter-hot/app.js', // counter_hot
+    shopping_cart: './src/vuex-demo/shopping-cart/app.js', // shopping_cart
+    todomvc: './src/vuex-demo/todomvc/app.js', // todomvc
   },
   output: {
     path: config.build.assetsRoot,
