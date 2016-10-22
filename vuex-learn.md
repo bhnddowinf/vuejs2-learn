@@ -66,21 +66,22 @@
 - 源码 https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuex-demo/v02_store.js
 
 
-# 4.State
+# 教学章节，为何会这样子排序
 
--  http://vuefe.cn/vuex/state.html
+```
 
-# 5.Getters
+因为vuex，本身简单
 
- - http://vuefe.cn/vuex/getters.html
+那为何初学者原尤神的代码会抓瞎呢？
 
-# 6.Mutations
+因为…es2015模块化
 
- - http://vuefe.cn/vuex/mutations.html
+才是所有 mvvm 最核心的 know how (此 mvvm 包含 react ，ng)
 
-# 7.Actions
+您不先讲这个，是无法把vuex精最精华的地方讲通。
 
--  http://vuefe.cn/vuex/actions.html
+```
+
 
 # 8.Modules
 
@@ -97,6 +98,24 @@
 # 11.严格模式
 
 -  http://vuefe.cn/vuex/strict.html
+
+
+# 4.State
+
+-  http://vuefe.cn/vuex/state.html
+
+# 5.Getters
+
+ - http://vuefe.cn/vuex/getters.html
+
+# 6.Mutations
+
+ - http://vuefe.cn/vuex/mutations.html
+
+# 7.Actions
+
+-  http://vuefe.cn/vuex/actions.html
+
 
 # 12.表单处理
 
