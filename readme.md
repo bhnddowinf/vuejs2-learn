@@ -18,7 +18,7 @@
 
 > [视频: vue-cli 多页应用(youtube)] (https://youtu.be/J-0Vl68uKyY)
 
-> [视步：vue-cli 多页应用(百度云)] (http://pan.baidu.com/s/1pL71opX)
+> [视频：vue-cli 多页应用(百度云)] (http://pan.baidu.com/s/1pL71opX)
 
 
 
