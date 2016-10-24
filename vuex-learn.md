@@ -142,6 +142,8 @@
 
 -  http://vuefe.cn/vuex/forms.html
 
+- [vuejs2 表单相关知识点整理] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/vuejs2-form.md)
+
 # 13.测试
 
 -  http://vuefe.cn/vuex/testing.html
