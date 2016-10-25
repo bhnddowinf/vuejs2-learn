@@ -9,6 +9,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "mint-ui": "^2.0.2",
     "vue": "^2.0.1",
     "vuex": "^2.0.0"
   },

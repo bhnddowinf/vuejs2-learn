@@ -18,9 +18,37 @@
 
 - 简单介绍
 
+> [vuejs/vue-cli: Simple CLI for scaffolding Vue.js projects] (https://github.com/vuejs/vue-cli)
+
+#### vue.js 2 vue-cli how to start
+
+``` js
+  sudo npm install -g vue-cli
+
+  vue init webpack my-project
+
+  cd my-project
+
+  npm install
+
+  npm run dev
+
+```
 > [mint-UI for vuejs2] (http://mint-ui.github.io/docs/#!/zh-cn2) 移动端 UI 库
 
-> [vuejs/vue-cli: Simple CLI for scaffolding Vue.js projects] (https://github.com/vuejs/vue-cli)
+#### 安装
+
+``` js
+
+npm install mint-ui -save
+
+```
+import Button from 'mint-ui/lib/button';
+
+import 'mint-ui/lib/button/style.css';
+
+```
+
 
 
 ### 1-2.多页应用
@@ -75,20 +103,6 @@
 
 - https://github.com/naugtur/xhr
 
-# vue.js 2 vue-cli how to start
-
-``` js
-  sudo npm install -g vue-cli
-
-  vue init webpack my-project
-
-  cd my-project
-
-  npm install
-
-  npm run dev
-
-```
 
 
 # 豪哥的QQ群
