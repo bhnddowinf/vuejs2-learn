@@ -14,14 +14,14 @@
 
 ## 1.vue-cli
 
-- 1-1.vue-cli 简介
+### 1-1.vue-cli 简介
 
 - 简单介绍
 
 > [mint-UI for vuejs2] (http://mint-ui.github.io/docs/#!/zh-cn2) 移动端 UI 库
 
 
-- 1-2.多页应用
+### 1-2.多页应用
 
 -  因为讲解 npm run dev , npm run build  这两种多页设置，所以会讲这么40分钟这么久。自已有经验的话，看代码来抄，比较快，真的是初学者，还是建议看完吧，没有人会讲这么细。
 
@@ -33,7 +33,7 @@
 
 ## 2.Vuex
 
-- 2-1.[vuex 台湾小凡教程文档] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/vuex-learn.md)
+### 2-1.[vuex 台湾小凡教程文档] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/vuex-learn.md)
 
 # 教程目的
 
