@@ -20,6 +20,8 @@
 
 > [mint-UI for vuejs2] (http://mint-ui.github.io/docs/#!/zh-cn2) 移动端 UI 库
 
+> [vuejs/vue-cli: Simple CLI for scaffolding Vue.js projects] (https://github.com/vuejs/vue-cli)
+
 
 ### 1-2.多页应用
 
