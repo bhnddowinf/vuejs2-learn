@@ -36,6 +36,7 @@
 ```
 > [mint-UI for vuejs2] (http://mint-ui.github.io/docs/#!/zh-cn2) 移动端 UI 库
 
+
 #### 安装
 
 ``` js
@@ -52,6 +53,16 @@ import 'mint-ui/lib/button/style.css';
 
 ```
 
+
+#### mint-ui 怎么用？（个人实测…有坑，但还是可以用）
+
+- [mint-ui demo] (https://bhnddowinf.github.io/bhnddowinf/vuejs2demo/mint_ui1.html)
+
+- [源码：mint_ui1.html] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuex-demo/mint_ui1.html)
+
+- [源码：mint_ui1.js] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuex-demo/mint_ui1.js)
+
+- [源码：mint_ui1v.vue] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuex-demo/mint_ui1v.vue)
 
 
 ### 1-2.多页应用
