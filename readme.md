@@ -46,10 +46,24 @@ npm install mint-ui -save
 ```
 
 ``` js
+// 本人重 vue 全家桶的讲解，怎么使用 ui库，跟此目标不符
 
-import Button from 'mint-ui/lib/button';
+// 所有的 ui 库，使用原理，差不多，本示例，
 
+// 只讲一点点 ui 知识点，让你看个几分钟，就自已抓来用…
+
+
+// -- mint-ui start
+// http://mint-ui.github.io/docs/#!/zh-cn2/button
+// /my-project/node_modules/mint-ui/lib/button
+import mtButton from 'mint-ui/lib/button';
 import 'mint-ui/lib/button/style.css';
+
+// http://mint-ui.github.io/docs/#!/zh-cn2/toast
+// /my-project/node_modules/mint-ui/lib/toast
+import { Toast } from 'mint-ui';
+import 'mint-ui/lib/toast/style.css';
+// -- mint-ui end
 
 ```
 
