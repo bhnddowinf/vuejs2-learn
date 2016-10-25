@@ -89,5 +89,13 @@ module.exports = merge(baseWebpackConfig, {
       chunks: ['todomvc'], //需要引入的chunk，不配置就会引入所有页面的资源
     }),
     // --------多頁    end
-  ]
+    // --------多頁 start
+    new HtmlWebpackPlugin({
+      filename: 'mint_ui1.html',
+      template: 'src/vuex-demo/mint_ui1.html',
+      inject: true,
+      chunks: ['mint_ui1'], //需要引入的chunk，不配置就会引入所有页面的资源
+    }),
+
+    ]
 })

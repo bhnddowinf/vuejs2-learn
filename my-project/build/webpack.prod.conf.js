@@ -181,6 +181,23 @@ var webpackConfig = merge(baseWebpackConfig, {
       chunksSortMode: 'dependency'
     }),
     //----------多页 end
+
+    //----------多页 start
+    new HtmlWebpackPlugin({
+      filename: '../dist/mint_ui.html',
+      template: 'src/vuex-demo/mint_ui1.html',
+      inject: true,
+      minify: {
+        removeComments: true,
+        collapseWhitespace: true,
+        removeAttributeQuotes: true
+      },
+      chunks: ['manifest', 'vendor', 'mint_ui'], //需要引入的chunk，不配置就会引入所有页面的资源
+      chunksSortMode: 'dependency'
+    }),
+    //----------多页 end
+
+
   ]
 })
 if (config.build.productionGzip) {

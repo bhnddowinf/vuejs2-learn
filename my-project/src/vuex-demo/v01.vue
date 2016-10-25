@@ -4,20 +4,12 @@
         <!--// view (视图) -->
         <h1>{{ count }}</h1>
         <button @click="increment">count + 1</button>
-        <mbtn @click="increment">count + 1</mbtn>
 
     </div>
 </template>
 <script>
 
-// -- mint-ui start
-import mintButton from 'mint-ui/lib/button';
-import 'mint-ui/lib/button/style.css';
-// -- mint-ui end
 export default {
-    components: {
-        'mbtn':mintButton
-    },
 
     // state (状态)
     data() {
