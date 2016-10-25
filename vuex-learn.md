@@ -52,6 +52,13 @@
 
 - http://vuefe.cn/vuex/getting-started.html
 
+> ### vuex 增加、减少 demo
+>- demo https://bhnddowinf.github.io/bhnddowinf/vuejs2demo/vuex02.html
+>- 源码 https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuex-demo/v02_app.js
+>- 源码 https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuex-demo/v02_counter.vue
+>- 源码 https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuex-demo/v02_store.js
+
+
 ## 3-1.学习 es2015
 
 - https://babeljs.io/docs/learn-es2015/ 官网推的 学习 es2015网址，看得蛮累的

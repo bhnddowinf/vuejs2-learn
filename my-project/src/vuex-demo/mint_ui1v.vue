@@ -28,7 +28,6 @@ import 'mint-ui/lib/toast/style.css';
 export default {
   components:{
     'mtbutton': mtButton,
-
   },
   data () {
     return {
