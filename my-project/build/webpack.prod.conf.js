@@ -192,7 +192,7 @@ var webpackConfig = merge(baseWebpackConfig, {
         collapseWhitespace: true,
         removeAttributeQuotes: true
       },
-      chunks: ['manifest', 'vendor', 'mint_ui'], //需要引入的chunk，不配置就会引入所有页面的资源
+      chunks: ['manifest', 'vendor', 'mint_ui1'], //需要引入的chunk，不配置就会引入所有页面的资源
       chunksSortMode: 'dependency'
     }),
     //----------多页 end

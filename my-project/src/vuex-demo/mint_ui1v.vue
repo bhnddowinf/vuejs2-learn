@@ -1,8 +1,11 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <mtbutton  @click="method_a" type ="primary" >mint Button demo</mtbutton>
-    <button @click="method_a" class="mint-button">原生 Button demo</button>
+    <!--参照官网的写法 button -->
+    <mtbutton  @click="method_a" type ="primary" >mint Button demo (无法执行)</mtbutton>
+
+    <!--如果你没信心…可以改成这样-->
+    <button @click="method_a" class="mint-button mint-button--primary mint-button--normal">原生 Button demo</button>
   </div>
 </template>
 
@@ -10,10 +13,12 @@
 
 // -- mint-ui start
 // http://mint-ui.github.io/docs/#!/zh-cn2/button
+// /my-project/node_modules/mint-ui/lib/button
 import mtButton from 'mint-ui/lib/button';
 import 'mint-ui/lib/button/style.css';
 
-//http://mint-ui.github.io/docs/#!/zh-cn2/toast
+// http://mint-ui.github.io/docs/#!/zh-cn2/toast
+// /my-project/node_modules/mint-ui/lib/toast
 import { Toast } from 'mint-ui';
 import 'mint-ui/lib/toast/style.css';
 // -- mint-ui end
