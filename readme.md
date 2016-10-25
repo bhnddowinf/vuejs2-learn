@@ -8,7 +8,7 @@
 
 -  3.所有代码 demo 在 https://bhnddowinf.github.io/bhnddowinf/vuejs2demo/index.html
 
--  4.所有章节视频会在 Youtube, 百度云
+-  4.所有章节视频会在 Youtube, bilibili.com , 百度云上传有所管制。
 
 # 系列教程
 
@@ -20,7 +20,11 @@
 
 > [vuejs/vue-cli: Simple CLI for scaffolding Vue.js projects] (https://github.com/vuejs/vue-cli)
 
+- [视频：vue-cli 简介，与 套用 mint-ui demo (youtube) ] (https://youtu.be/AwjfG5T3vO4)
+
 #### vue.js 2 vue-cli how to start
+
+vue.js2 vue-cli 怎么搭起来的教学
 
 ``` js
   sudo npm install -g vue-cli
@@ -82,6 +86,12 @@ import 'mint-ui/lib/toast/style.css';
 ### 1-2.多页应用
 
 -  因为讲解 npm run dev , npm run build  这两种多页设置，所以会讲这么40分钟这么久。自已有经验的话，看代码来抄，比较快，真的是初学者，还是建议看完吧，没有人会讲这么细。
+
+- vuejs2 多页应用讲解https://github.com/bhnddowinf/vuejs2-learn
+
+  使用 vue-cli 一定用到的多页应用
+
+  教你怎么跑 npm run dev, npm run build
 
 > [视频: vue-cli 多页应用(youtube)](https://youtu.be/J-0Vl68uKyY)
 

@@ -34,6 +34,9 @@
 - http://vuefe.cn/vuex/intro.html
 - 讲解：此章节中，有代码，实际上要在 vue-cli 呈现出来为何？
 
+vuex 是什么，怎么搭，以及 要有用什么角度来理解这个插件
+
+- [视频：什么是 vuex for (youtube)] (https://youtu.be/3tnclLf3Zw4)
 > ### 建立下述观念：
 
 > 1. state (状态)，驱动我们应用的真实的源；
@@ -52,11 +55,18 @@
 
 - http://vuefe.cn/vuex/getting-started.html
 
+进阶讲解四个重要的单字，来把 vuex state 管理机制贯穿理解
+
+- [视频：vuex 起步 (youtube)] (https://youtu.be/W3ja2hHWijg)
+
+
+
+
 > ### vuex 增加、减少 demo
->- demo https://bhnddowinf.github.io/bhnddowinf/vuejs2demo/vuex02.html
->- 源码 https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuex-demo/v02_app.js
->- 源码 https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuex-demo/v02_counter.vue
->- 源码 https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuex-demo/v02_store.js
+> - demo https://bhnddowinf.github.io/bhnddowinf/vuejs2demo/vuex02.html
+> - 源码 https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuex-demo/v02_app.js
+> - 源码 https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuex-demo/v02_counter.vue
+> - 源码 https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuex-demo/v02_store.js
 
 
 ## 3-1.学习 es2015
