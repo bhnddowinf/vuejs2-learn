@@ -184,7 +184,7 @@ var webpackConfig = merge(baseWebpackConfig, {
 
     //----------多页 start
     new HtmlWebpackPlugin({
-      filename: '../dist/mint_ui.html',
+      filename: '../dist/mint_ui1.html',
       template: 'src/vuex-demo/mint_ui1.html',
       inject: true,
       minify: {
