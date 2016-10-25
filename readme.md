@@ -12,7 +12,16 @@
 
 # 系列教程
 
-## 1.vue-cli 多页应用
+## 1.vue-cli
+
+- 1-1.vue-cli 简介
+
+- 简单介绍
+
+> [mint-UI for vuejs2] (http://mint-ui.github.io/docs/#!/zh-cn2) 移动端 UI 库
+
+
+- 1-2.多页应用
 
 -  因为讲解 npm run dev , npm run build  这两种多页设置，所以会讲这么40分钟这么久。自已有经验的话，看代码来抄，比较快，真的是初学者，还是建议看完吧，没有人会讲这么细。
 
@@ -53,6 +62,8 @@
 - [最完整 vue 資源合集] (https://github.com/vuejs/awesome-vue) awesome-vue
 
 - [vuex 原文文档] (http://vuex.vuejs.org/en/index.html) 尤雨溪大神
+
+- [mint-UI for vuejs2] (http://mint-ui.github.io/docs/#!/zh-cn2) 移动端 UI 库
 
 # 國外 ajax 主流插件 (vue-resource 作者不更新了)
 
