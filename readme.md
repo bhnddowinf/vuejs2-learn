@@ -42,6 +42,8 @@
 
 npm install mint-ui -save
 
+```
+
 ``` js
 
 import Button from 'mint-ui/lib/button';
