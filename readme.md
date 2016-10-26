@@ -24,6 +24,8 @@
 
 - [视频：vue-cli 简介，与 套用 mint-ui demo (youtube) ] (https://youtu.be/AwjfG5T3vO4)
 
+- [视频：vue-cli 简介，与 套用 mint-ui demo (bilibili)] (http://www.bilibili.com/video/av6828349/)
+
 #### vue.js 2 vue-cli how to start
 
 vue.js2 vue-cli 怎么搭起来的教学

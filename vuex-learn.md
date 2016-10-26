@@ -37,6 +37,9 @@
 vuex 是什么，怎么搭，以及 要有用什么角度来理解这个插件
 
 - [视频：什么是 vuex for (youtube)] (https://youtu.be/3tnclLf3Zw4)
+
+- [视频：什么是 vuex for (bilibili)] (http://www.bilibili.com/video/av6829088/)
+
 > ### 建立下述观念：
 
 > 1. state (状态)，驱动我们应用的真实的源；
@@ -59,7 +62,7 @@ vuex 是什么，怎么搭，以及 要有用什么角度来理解这个插件
 
 - [视频：vuex 起步 (youtube)] (https://youtu.be/W3ja2hHWijg)
 
-
+- [视频：vuex 起步 (bilibili)] (http://www.bilibili.com/video/av6829095/)
 
 
 > ### vuex 增加、减少 demo
