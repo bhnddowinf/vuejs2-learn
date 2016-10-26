@@ -121,6 +121,8 @@ import 'mint-ui/lib/toast/style.css';
 
 - [vue.js 2 官网] (http://vuejs.org) 正式 vue.js2 尤雨溪大神 官方网站
 
+- [http://vue.sike.io vue.js 2 双语网站] (http://vue.sike.io) vue2 全家桶双语网站
+
 - [http://vuefe.cn vue.js 2 中文网站] (http://vuefe.cn) vue2 全家桶中文网站
 
 - [http://vuefe.cn/about/ 贡献翻译群] (http://vuefe.cn/about/) vue2 全家桶中文网站翻译群，衷心感谢，贡献心力制作
