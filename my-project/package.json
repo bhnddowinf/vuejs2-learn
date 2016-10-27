@@ -15,7 +15,9 @@
     "mint-ui": "^2.0.2",
     "style-loader": "^0.13.1",
     "vue": "^2.0.1",
-    "vuex": "^2.0.0"
+    "vue-router": "^2.0.1",
+    "vuex": "^2.0.0",
+    "vuex-router-sync": "next"
   },
   "devDependencies": {
     "autoprefixer": "^6.4.0",

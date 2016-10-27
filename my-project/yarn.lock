@@ -3553,6 +3553,10 @@ vue-popup@^0.2.6:
   dependencies:
     wind-dom "0.0.3"
 
+vue-router:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-2.0.1.tgz#88b83cdc9497bad5b20b579e847a7e7240e221dd"
+
 vue-style-loader@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/vue-style-loader/-/vue-style-loader-1.0.0.tgz#abeb7bd0f46313083741244d3079d4f14449e049"
@@ -3577,6 +3581,10 @@ vue@^2.0.1:
 vuex:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/vuex/-/vuex-2.0.0.tgz#26befa44de220f009e432d1027487bff29571cee"
+
+vuex-router-sync@next:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/vuex-router-sync/-/vuex-router-sync-3.0.0.tgz#3b632baa86cc55192ab408b8d52e6490380df3d7"
 
 watchpack@^0.2.1:
   version "0.2.9"

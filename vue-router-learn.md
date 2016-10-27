@@ -23,3 +23,25 @@ import VueRouter from 'vue-router'
 
 Vue.use(VueRouter)
 ```
+
+# 2. 如果要把 vue-router 纳入 vuex 的 state 中使用
+
+- https://github.com/vuejs/vuex-router-sync
+
+``` js
+
+# for vuex & vue-router >= 2.0:
+npm install vuex-router-sync@next
+
+```
+
+``` js
+import { sync } from 'vuex-router-sync'
+import store from './vuex/store' // vuex store instance
+import router from './router' // vue-router instance
+
+sync(store, router) // done.
+
+// bootstrap your app...
+
+```
