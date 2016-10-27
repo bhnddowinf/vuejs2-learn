@@ -109,6 +109,11 @@ import 'mint-ui/lib/toast/style.css';
 
 ### 2-1.[vuex 台湾小凡教程文档] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/vuex-learn.md)
 
+
+## 3.Vue-Router
+
+### 2-1.[vue-router 台湾小凡教程文档] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/vue-router-learn.md)
+
 # 教程目的
 
 - 网路上有很多 VUE 综合应用的视频，但大部份的视频 ，都当你已经了解官网
