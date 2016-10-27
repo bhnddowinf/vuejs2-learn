@@ -112,7 +112,7 @@ import 'mint-ui/lib/toast/style.css';
 
 ## 3.Vue-Router
 
-### 2-1.[vue-router 台湾小凡教程文档] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/vue-router-learn.md)
+### 3-1.[vue-router 台湾小凡教程文档] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/vue-router-learn.md)
 
 # 教程目的
 
