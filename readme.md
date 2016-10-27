@@ -8,6 +8,8 @@
 
 -  3.所有代码 demo 在 https://bhnddowinf.github.io/bhnddowinf/vuejs2demo/index.html
 
+    本人用 yarn
+
 -  4.所有章节视频会在 Youtube, bilibili.com
 
 - 百度云上传有所管制(锁1g，锁 影片)。

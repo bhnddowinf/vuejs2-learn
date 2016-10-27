@@ -14,7 +14,9 @@
 // -- mint-ui start
 // http://mint-ui.github.io/docs/#!/zh-cn2/button
 // /my-project/node_modules/mint-ui/lib/button
-import mtButton from 'mint-ui/lib/button';
+//import mtButton from 'mint-ui/lib/button';
+
+import { Button } from 'mint-ui';
 import 'mint-ui/lib/button/style.css';
 
 // http://mint-ui.github.io/docs/#!/zh-cn2/toast
@@ -27,7 +29,7 @@ import 'mint-ui/lib/toast/style.css';
 
 export default {
   components:{
-    'mtbutton': mtButton,
+    'mtbutton': Button,
   },
   data () {
     return {

@@ -3,6 +3,10 @@
 import Vue from 'vue'
 import App from './mint_ui1v.vue'
 
+import FastClick from 'fastclick'
+FastClick.attach(document.body)
+
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
