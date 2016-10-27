@@ -74,7 +74,9 @@ vuex 是什么，怎么搭，以及 要有用什么角度来理解这个插件
 
 ## 3-1.学习 es2015
 
-- https://babeljs.io/docs/learn-es2015/ 官网推的 学习 es2015网址，看得蛮累的
+- https://babeljs.io/docs/learn-es2015/ 官网推的 学习 es2015网址，看得蛮累的 (原文)
+
+- https://github.com/lukehoban/es6features Overview of ECMAScript 6 features (原文)
 
 - http://es6.ruanyifeng.com/#README 阮一峰着 ，看这个比较好理解
 
