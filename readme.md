@@ -126,15 +126,15 @@ import 'mint-ui/lib/toast/style.css';
 
 > treeview
 
-- https://bhnddowinf.github.io/bhnddowinf/vuejs2demo/treeview.html
+- [Tree View Demo] https://bhnddowinf.github.io/bhnddowinf/vuejs2demo/treeview.html
 
-- https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuejs2-demo/treeview/app.js
+- [app.js] https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuejs2-demo/treeview/app.js
 
-- https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuejs2-demo/treeview/app.vue
+- [app.vue] https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuejs2-demo/treeview/app.vue
 
-- https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuejs2-demo/treeview/index.html
+- [index.html] https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuejs2-demo/treeview/index.html
 
-- https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuejs2-demo/treeview/item-template.vue
+- [item-template.vue] https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuejs2-demo/treeview/item-template.vue
 
 
 
