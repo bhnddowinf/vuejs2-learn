@@ -96,6 +96,17 @@ module.exports = merge(baseWebpackConfig, {
       inject: true,
       chunks: ['mint_ui1'], //需要引入的chunk，不配置就会引入所有页面的资源
     }),
+    // --------多頁    end
 
-    ]
+    // --------多頁 start
+    new HtmlWebpackPlugin({
+      filename: 'treeview.html',
+      template: 'src/vuejs2-demo/treeview/index.html',
+      inject: true,
+      chunks: ['treeview'], //需要引入的chunk，不配置就会引入所有页面的资源
+    }),
+    // --------多頁    end
+
+
+  ]
 })

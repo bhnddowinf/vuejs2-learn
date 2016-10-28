@@ -196,7 +196,23 @@ var webpackConfig = merge(baseWebpackConfig, {
       chunksSortMode: 'dependency'
     }),
     //----------多页 end
-
+    //----------多页 start
+    new HtmlWebpackPlugin({
+      filename: '../dist/treeview.html',
+      template: 'src/vuejs2-demo/treeview/index.html',
+      inject: true,
+      minify: {
+        removeComments: true,
+        collapseWhitespace: true,
+        removeAttributeQuotes: true
+      },
+      chunks: ['manifest', 'vendor', 'treeview'], //需要引入的chunk，不配置就会引入所有页面的资源
+      chunksSortMode: 'dependency'
+    }),
+    //----------多页 end
+    //
+    //
+    //
 
   ]
 })

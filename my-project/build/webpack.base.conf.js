@@ -13,7 +13,8 @@ module.exports = {
     counter_hot: './src/vuex-demo/counter-hot/app.js', // counter_hot
     shopping_cart: './src/vuex-demo/shopping-cart/app.js', // shopping_cart
     todomvc: './src/vuex-demo/todomvc/app.js', // todomvc
-    mint_ui1:'./src/vuex-demo/mint_ui1.js' // mint_ui1.js
+    mint_ui1: './src/vuex-demo/mint_ui1.js', // mint_ui1.js
+    treeview: './src/vuejs2-demo/treeview/app.js' // treeview.js
   },
   output: {
     path: config.build.assetsRoot,
@@ -35,34 +36,34 @@ module.exports = {
   },
   module: {
     loaders: [{
-      test: /\.vue$/,
-      loader: 'vue'
-    }, {
-      test: /\.js$/,
-      loader: 'babel',
-      include: projectRoot,
-      exclude: /node_modules/
-    }, {
-      test: /\.json$/,
-      loader: 'json'
-    }, {
-      test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
-      loader: 'url',
-      query: {
-        limit: 10000,
-        name: utils.assetsPath('img/[name].[hash:7].[ext]')
-      }
-    }, {
-      test: /\.(woff2?|eot|ttf|otf)(\?.*)?$/,
-      loader: 'url',
-      query: {
-        limit: 10000,
-        name: utils.assetsPath('fonts/[name].[hash:7].[ext]')
-      }
-    },
+        test: /\.vue$/,
+        loader: 'vue'
+      }, {
+        test: /\.js$/,
+        loader: 'babel',
+        include: projectRoot,
+        exclude: /node_modules/
+      }, {
+        test: /\.json$/,
+        loader: 'json'
+      }, {
+        test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
+        loader: 'url',
+        query: {
+          limit: 10000,
+          name: utils.assetsPath('img/[name].[hash:7].[ext]')
+        }
+      }, {
+        test: /\.(woff2?|eot|ttf|otf)(\?.*)?$/,
+        loader: 'url',
+        query: {
+          limit: 10000,
+          name: utils.assetsPath('fonts/[name].[hash:7].[ext]')
+        }
+      },
       // mint-ui 这行有问题，先注解
       //    { test: /\.css$/, loader: "style!css" }
-     ]
+    ]
   },
   vue: {
     loaders: utils.cssLoaders(),
