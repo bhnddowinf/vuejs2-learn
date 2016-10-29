@@ -134,7 +134,7 @@ import 'mint-ui/lib/toast/style.css';
 
 - [index.html] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuejs2-demo/treeview/index.html)
 
-- [item-template.vue] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuejs2-demo/treeview/)item-template.vue
+- [item-template.vue] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuejs2-demo/treeview/)
 
 
 
