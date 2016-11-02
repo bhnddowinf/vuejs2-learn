@@ -170,13 +170,13 @@ import 'mint-ui/lib/toast/style.css';
 
 - https://github.com/naugtur/xhr
 
-
+- https://github.com/ded/reqwest
 
 # 豪哥的QQ群
 
 - 小弟在互联网有一个爱好前端的朋友，网名：豪情，不断贡献自已的知识分享最先进的前端资讯，带领着很多人学习前端。
 
-- 小弟有幸能结交豪哥，以下是中国最专业的前端群, 仅供参考. 
+- 小弟有幸能结交豪哥，以下是中国最专业的前端群, 仅供参考.
 
 > * vuejs 364912432
 > * Angularjs 238251402
@@ -191,7 +191,7 @@ import 'mint-ui/lib/toast/style.css';
 > * ASP.NET C#技术交流群 461614624
 > * 安卓IOS混合开发群 415074410
 
-  
+
 
 
 #台湾小凡
