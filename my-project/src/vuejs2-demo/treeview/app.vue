@@ -3,7 +3,7 @@
         <p>(双点击可以将项目转成目录) Vue.JS2 官网 树 for vue-cli</p>
         <!-- the demo root element -->
         <ul id="demo">
-            <item class="item" :model="treeData" >
+            <item class="item" :model="treeData">
             </item>
         </ul>
     </div>
@@ -12,29 +12,41 @@
 // demo data
 var data1 = {
     name: 'root',
+    no: '1',
     children: [{
-        name: 'hello'
+        name: 'hello',
+        no: '2',
     }, {
-        name: 'wat'
+        name: 'wat',
+        no: '3',
     }, {
         name: 'child folder',
+        no: '4',
         children: [{
             name: 'child folder',
+            no: '5',
             children: [{
-                name: 'hello'
+                name: 'hello',
+                no: '6',
             }, {
-                name: 'wat'
+                name: 'wat',
+                no: '7',
             }]
         }, {
-            name: 'hello'
+            name: 'hello',
+            no: '8',
         }, {
-            name: 'wat'
+            name: 'wat',
+            no:'9',
         }, {
             name: 'child folder',
+            no:'10',
             children: [{
-                name: 'hello'
+                name: 'hello',
+                no:'11',
             }, {
-                name: 'wat'
+                name: 'wat',
+                no:'12',
             }]
         }]
     }]
