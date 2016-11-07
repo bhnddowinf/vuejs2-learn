@@ -138,11 +138,13 @@ import 'mint-ui/lib/toast/style.css';
 
 ## 5.vue-rx
 
-- https://github.com/Reactive-Extensions/RxJS rx.js 官网
+- [rx.js 官网] (https://github.com/Reactive-Extensions/RxJS)
 
-- https://mcxiaoke.gitbooks.io/rxdocs/content/Intro.html rx.js 中文
+- [rx.js 官网示例] (https://github.com/Reactive-Extensions/RxJS/tree/master/examples)
 
-- https://github.com/vuejs/vue-rx 尤雨溪大神写的 vue-rx
+- [rx.js 设计指南] (https://github.com/Reactive-Extensions/RxJS/tree/master/doc/designguidelines)
+
+- [尤雨溪大神写的 vue-rx] (https://github.com/vuejs/vue-rx)
 
 # vuejs 2 相关链结
 
