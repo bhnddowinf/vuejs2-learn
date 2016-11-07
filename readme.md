@@ -173,7 +173,9 @@ import 'mint-ui/lib/toast/style.css';
 # 國外 ajax 主流插件 (vue-resource 作者不更新了)
 
 - https://github.com/mzabriskie/axios
+
 > 尤大推荐 axios
+
 > npm install axios
 
 
