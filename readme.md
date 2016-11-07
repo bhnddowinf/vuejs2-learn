@@ -136,7 +136,13 @@ import 'mint-ui/lib/toast/style.css';
 
 - [item-template.vue] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuejs2-demo/treeview/)
 
+## 5.vue-rx
 
+- https://github.com/Reactive-Extensions/RxJS rx.js 官网
+
+- https://mcxiaoke.gitbooks.io/rxdocs/content/Intro.html rx.js 中文
+
+- https://github.com/vuejs/vue-rx 尤雨溪大神写的 vue-rx
 
 # vuejs 2 相关链结
 
