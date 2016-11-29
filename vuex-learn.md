@@ -162,7 +162,7 @@ export default new Vuex.Store({
 
 ## 观念讲解 ： vuex，action ，mutations 做什么用的？(6) .vue 使用  mapGetters, mapActions，操作 Vuex. 
 
-> 前面的工作做好了，到了 .vue , 就只是下指令，单纯执行 geter，actios
+> 前面的工作做好了，到了 .vue , 就只是下指令，单纯执行 getter，action
 
 ```js
 
