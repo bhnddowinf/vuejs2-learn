@@ -54,9 +54,9 @@ vuex 是什么，怎么搭，以及 要有用什么角度来理解这个插件
 
 ## (1) state
 
-- 中文翻译成「状态」，建议尽量用 state 这个单字来阅读 vuex 文檔，不然你脑海一直出现状态状态状态，反而会卡死。
+> 中文翻译成「状态」，建议尽量用 state 这个单字来阅读 vuex 文檔，不然你脑海一直出现状态状态状态，反而会卡死。
 
-- 整个 vuex 是一颗 独立的 state tree,规定：只允许 mutation ，才能改变 state
+> 整个 vuex 是一颗 独立的 state tree,规定：只允许 mutation ，才能改变 state
 
 ```js
     const state = {
@@ -66,23 +66,22 @@ vuex 是什么，怎么搭，以及 要有用什么角度来理解这个插件
 
 ## (2) mutation
 
-    (2-1) 更改 Vuex 的 store 中的 state 的唯一方法是提交 mutation。
+> 更改 Vuex 的 store 中的 state 的唯一方法是提交 mutation。
 
-    (2-2) mutation，会与插件 devtools 协作，当 mutation 有变化时, 就做 state 的纪录，来协助开发者 debug，所以这里的代码要求同步，以便插件来调试。
+> mutation，会与插件 devtools 协作，当 mutation 有变化时, 就做 state 的纪录，来协助开发者 debug，所以这里的代码要求同步，以便插件来调试。
 
 
-    (2-3) 来源：https://vuex.vuejs.org/zh-cn/mutations.html
+> 来源：https://vuex.vuejs.org/zh-cn/mutations.html
 
 
 ## (3) Action 类似于 mutation，不同在于：
 
-    (3-1) Action 提交的是 mutation(让 mutation 处理插件的调试工作 )，而不是直接变更 state 。
-    
-    (3-2) Action 可以包含任意异步操作。
+> Action 提交的是 mutation(让 mutation 处理插件的调试工作 )，而不是直接变更 state 。
 
-    (3-3) 来源：https://vuex.vuejs.org/zh-cn/actions.html
+> Action 可以包含任意异步操作。
 
-    小凡：mutation 的工作，要把 state 作响应式的处理，还要发讯息给devtool, 还要去操作 state , 有多重工作。
+> 来源：https://vuex.vuejs.org/zh-cn/actions.html
+
 
 
 
