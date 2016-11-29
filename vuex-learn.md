@@ -100,6 +100,7 @@ const mutations = {
 > 来源：https://vuex.vuejs.org/zh-cn/actions.html
 
 ```js
+// 建议把此区当做事件注册来看, action 也不是马上就执行，只向 mutation 做 commit 的指令。
 
 const actions = {
   increment: ({
@@ -116,6 +117,8 @@ const actions = {
       commit('increment')
     }
   },
+
+  // 如果 action 有异步的要求时，可以参考下列的写法，对 mutation 提出 commit 。
   incrementAsync({
     commit
   }) {
@@ -128,6 +131,20 @@ const actions = {
   }
 
 ```
+
+## 观念讲解 ： vuex，action ，mutations 做什么用的？(4) getters
+
+> 请当做 计算属性来写，所有的 getter, 接收 完整的state树，做第一个参数
+
+``` js
+const getters = {
+  evenOrOdd: state => state.count % 2 === 0 ? '偶数' : '奇数'
+}
+
+```
+
+
+
 
 
 
