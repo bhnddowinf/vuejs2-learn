@@ -51,8 +51,11 @@ vuex 是什么，怎么搭，以及 要有用什么角度来理解这个插件
 
 # 观念讲解 ： vuex，action ，mutations 做什么用的？
 
-> 同步：当函数执行时，就得到结果，那这个函数就是同步的。
-> 异步：当函数执行时，不会马上有结果，甚至有时间差的问题，那这个函数就是异步的。
+> 同步：
+> 当函数执行时，就得到结果，那这个函数就是同步的。
+
+> 异步：
+> 当函数执行时，不会马上有结果，甚至有时间差的问题，那这个函数就是异步的。
 
 
 ## 观念讲解 ： vuex，action ，mutations 做什么用的？ (1) state
@@ -143,9 +146,49 @@ const getters = {
 
 ```
 
+## 观念讲解 ： vuex，action ，mutations 做什么用的？(5) (Vuex 实例依  state, mutations, actions,and getters 组合)
 
+```js
+// 小凡 (Vuex 实例依  state, mutations, actions,and getters 组合)
+export default new Vuex.Store({
+  state,
+  getters,
+  actions,
+  mutations
+})
+```
 
+## 观念讲解 ： vuex，action ，mutations 做什么用的？(6) .vue 使用  mapGetters, mapActions，操作 Vuex. 
 
+```js
+
+<template>
+  <div id="app">
+    <!--file : /my-project/src/vuex-demo/v02_counter.vue -->
+    <h1>点击: {{ $store.state.count }} 次数,此為 {{ evenOrOdd }} <br></h1>
+    <button class="btn"  @click="increment">+</button>
+    <button class="btn"  @click="decrement">-</button><br>
+    <button class="btn"  @click="incrementIfOdd">业务设计：当 奇数时，才增加</button><br>
+    <button class="btn"  @click="incrementAsync">业务设计：1秒后，才会增加 1</button><br>
+  </div>
+</template>
+
+<script>
+import { mapGetters, mapActions } from 'vuex'
+export default {
+  computed: mapGetters([
+    'evenOrOdd'
+  ]),
+  methods: mapActions([
+    'increment',
+    'decrement',
+    'incrementIfOdd',
+    'incrementAsync'
+  ])
+}
+</script>
+
+```
 
 
 
