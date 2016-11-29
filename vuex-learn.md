@@ -49,10 +49,13 @@ vuex 是什么，怎么搭，以及 要有用什么角度来理解这个插件
 > 3. actions (动作)，用户在 视图 上的输入引起状态的更改的可能方式。
 
 
-# 问题： vuex，action ，mutations 做什么用的？
+# 观念讲解 ： vuex，action ，mutations 做什么用的？
+
+> 同步：当函数执行时，就得到结果，那这个函数就是同步的。
+> 异步：当函数执行时，不会马上有结果，甚至有时间差的问题，那这个函数就是异步的。
 
 
-## (1) state
+## 观念讲解 ： vuex，action ，mutations 做什么用的？ (1) state
 
 > 中文翻译成「状态」，建议尽量用 state 这个单字来阅读 vuex 文檔，不然你脑海一直出现状态状态状态，反而会卡死。
 
@@ -64,33 +67,77 @@ vuex 是什么，怎么搭，以及 要有用什么角度来理解这个插件
     }
 ```
 
-## (2) mutation
+## 观念讲解 ： vuex，action ，mutations 做什么用的？(2) mutation
 
 > 更改 Vuex 的 store 中的 state 的唯一方法是提交 mutation。
 
-> mutation，会与插件 devtools 协作，当 mutation 有变化时, 就做 state 的纪录，来协助开发者 debug，所以这里的代码要求同步，以便插件来调试。
+> mutation，会与插件 devtools 协作，当 mutation 有变化时, 就做 state 的纪录，来协助开发者 debug，所以这里的函数要求同步，以便插件来调试。
 
 
 > 来源：https://vuex.vuejs.org/zh-cn/mutations.html
 
+``` js
+// 建议把此区当做事件注册来看（同步不是马上执行的意思，而是在当函数执行时，就得到结果）
+const mutations = {
+  increment(state) {
+    state.count++
+  },
+  decrement(state) {
+    state.count--
+  }
+}
 
-## (3) Action 类似于 mutation，不同在于：
+```
+
+## 观念讲解 ： vuex，action ，mutations 做什么用的？(3) Action 
+
+> 类似于 mutation，不同在于：
 
 > Action 提交的是 mutation(让 mutation 处理插件的调试工作 )，而不是直接变更 state 。
 
-> Action 可以包含任意异步操作。
+> Action 的函数可以包含任意异步操作，但永远只提交 mutation。
 
 > 来源：https://vuex.vuejs.org/zh-cn/actions.html
 
+```js
+
+const actions = {
+  increment: ({
+    commit
+  }) => commit('increment'),
+  decrement: ({
+    commit
+  }) => commit('decrement'),
+  incrementIfOdd({
+    commit,
+    state
+  }) {
+    if ((state.count + 1) % 2 === 0) {
+      commit('increment')
+    }
+  },
+  incrementAsync({
+    commit
+  }) {
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        commit('increment')
+        resolve()
+      }, 1000)
+    })
+  }
+
+```
 
 
 
 
 
 
+### Vuex 观念 demo
 
-> ### Vuex 观念 demo
 > - demo https://bhnddowinf.github.io/bhnddowinf/vuejs2demo/vuex01.html
+
 > - 源码 https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuex-demo/v01_app.js
 > - 源码 https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuex-demo/v01.vue
 
