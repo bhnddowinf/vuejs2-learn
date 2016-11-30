@@ -88,7 +88,7 @@ import 'mint-ui/lib/toast/style.css';
 
 - [源码：mint_ui1v.vue] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuex-demo/mint_ui1v.vue)
 
-#### 补充
+#### 补充 mint_UI 点击问题修正
 
 - 关于事件绑定
 - 在 Vue 2.0 中，为自定义组件绑定原生事件必须使用 __.native__ 修饰符：
