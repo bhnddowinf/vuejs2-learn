@@ -91,19 +91,19 @@ import 'mint-ui/lib/toast/style.css';
 #### 补充
 
 - 关于事件绑定
-- 在 Vue 2.0 中，为自定义组件绑定原生事件必须使用 *.native* 修饰符：
+- 在 Vue 2.0 中，为自定义组件绑定原生事件必须使用 __.native__ 修饰符：
 
 ```js
     <my-component @click.native="handleClick">Click Me</my-component>
 ```
 
-- 从易用性的角度出发，我们对 *Button* 组件进行了处理，使它可以监听 *click* 事件：
+- 从易用性的角度出发，我们对 __Button__ 组件进行了处理，使它可以监听 __click__ 事件：
 
 ```js
     <mt-button @click="handleButtonClick">Click Me</mt-button>
 ```
 
-- 但是对于其他组件，还是需要添加 *.native* 修饰符。
+- 但是对于其他组件，还是需要添加 __.native__ 修饰符。
 
 
 - 来源： http://mint-ui.github.io/docs/#!/zh-cn2
