@@ -24,7 +24,8 @@
             </ul>
             <h3>第03章：vue.js 2 示例区</h3>
             <ul>
-                <li><a href='treeview.html'>Tree View for Vue-Cli </a></li>
+                <li><a href='treeview.html'>Tree View 递归组件 示例 </a></li>
+                <li><a href='iscomponent.html'>动态组件 使用 is 示例 </a></li>                
             </ul>
         </div>
     </div>

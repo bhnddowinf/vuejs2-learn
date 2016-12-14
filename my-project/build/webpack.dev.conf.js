@@ -106,7 +106,14 @@ module.exports = merge(baseWebpackConfig, {
       chunks: ['treeview'], //需要引入的chunk，不配置就会引入所有页面的资源
     }),
     // --------多頁    end
-
+    // --------多頁 start
+    new HtmlWebpackPlugin({
+      filename: 'iscomponent.html',
+      template: 'src/vuejs2-demo/is-component/index.html',
+      inject: true,
+      chunks: ['iscomponent'], //需要引入的chunk，不配置就会引入所有页面的资源
+    }),
+    // --------多頁    end
 
   ]
 })

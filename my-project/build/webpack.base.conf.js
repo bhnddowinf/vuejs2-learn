@@ -14,7 +14,8 @@ module.exports = {
     shopping_cart: './src/vuex-demo/shopping-cart/app.js', // shopping_cart
     todomvc: './src/vuex-demo/todomvc/app.js', // todomvc
     mint_ui1: './src/vuex-demo/mint_ui1.js', // mint_ui1.js
-    treeview: './src/vuejs2-demo/treeview/app.js' // treeview.js
+    treeview: './src/vuejs2-demo/treeview/app.js', // treeview.js
+    iscomponent:'./src/vuejs2-demo/is-component/main.js' // iscomponent 
   },
   output: {
     path: config.build.assetsRoot,
