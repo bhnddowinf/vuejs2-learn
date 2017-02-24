@@ -69,22 +69,26 @@ vue.js 2 官网讲解(以下是自我要求，小凡，不要你花时间在 看
 
 # 系列教程
 
-## 1. vue-cli
+## vue-cli
 
 [vue-cli 教程文檔] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/learn-vue-cli/vue-cli.md)
 
-## 2.Vuex
+## vue official website
 
-### 2-1.[vuex 台湾小凡教程文档] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/vuex-learn.md)
+[form 教程文檔] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/learn-vue-official-website/vuejs2-form.md)
 
+## Vuex
 
-## 3.Vue-Router
-
-### 3-1.[vue-router 台湾小凡教程文档] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/vue-router-learn.md)
-
+[vuex 台湾小凡教程文档] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/learn-vuex/vuex-learn.md)
 
 
-## 4.vue.js2 demo
+## Vue-Router
+
+[vue-router 台湾小凡教程文档] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/learn-vue-router/vue-router-learn.md)
+
+
+
+## vue.js2 demo - Tree View
 
 > treeview
 
