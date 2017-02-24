@@ -88,7 +88,9 @@ vue.js2 demo - Tree View
 - [index.html] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuejs2-demo/treeview/index.html)
 
 - [item-template.vue] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuejs2-demo/treeview/)
-- 
+
+
+
 ## 3. Vuex
 
 [vuex 台湾小凡教程文档] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/learn-vuex/vuex-learn.md)
