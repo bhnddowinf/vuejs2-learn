@@ -1,18 +1,18 @@
 # 教程主旨
 
-  vue.js 2 官网讲解(以下是自我要求，小凡，不要你花时间在 看视频以及打代码上，那有多浪费时间)
+vue.js 2 官网讲解(以下是自我要求，小凡，不要你花时间在 看视频以及打代码上，那有多浪费时间)
 
--  1.全程用 vue-cli 讲解
+1.全程用 vue-cli 讲解
 
--  2.所有代码在 https://github.com/bhnddowinf/vuejs2-learn ，你 copy 改改，就好。
+2.所有代码在 https://github.com/bhnddowinf/vuejs2-learn ，你 copy 改改，就好。
 
--  3.所有代码 demo 在 https://bhnddowinf.github.io/bhnddowinf/vuejs2demo/index.html
+3.所有代码 demo 在 https://bhnddowinf.github.io/bhnddowinf/vuejs2demo/index.html
 
-    本人用 yarn
+4.本人用 yarn
 
--  4.所有章节视频会在 Youtube, bilibili.com
+5.所有章节视频会在 Youtube, bilibili.com
 
-- 百度云上传有所管制(锁1g，锁 影片)。
+6.百度云上传有所管制(锁1g，锁 影片)。
 
 # 系列教程
 
@@ -22,7 +22,7 @@
 
 - 简单介绍
 
-> [vuejs/vue-cli: Simple CLI for scaffolding Vue.js projects] (https://github.com/vuejs/vue-cli)
+- vue-cli 官网 [vuejs/vue-cli: Simple CLI for scaffolding Vue.js projects] (https://github.com/vuejs/vue-cli)
 
 - [视频：vue-cli 简介，与 套用 mint-ui demo (youtube) ] (https://youtu.be/AwjfG5T3vO4)
 
@@ -30,21 +30,21 @@
 
 #### vue.js 2 vue-cli how to start
 
-vue.js2 vue-cli 怎么搭起来的教学
+vue.js2 vue-cli 怎么搭起来的教学, 照到
 
-``` js
-  sudo npm install -g vue-cli
 
-  vue init webpack my-project
+	$ sudo npm install -g vue-cli
+	
+	$ vue init webpack my-project
+	
+	$ cd my-project
+	
+	$ npm install
+	
+	$ npm run dev
 
-  cd my-project
 
-  npm install
-
-  npm run dev
-
-```
-> [mint-UI for vuejs2] (http://mint-ui.github.io/docs/#!/zh-cn2) 移动端 UI 库
+[ mint-UI for vuejs2 移动端 UI 库 ] (http://mint-ui.github.io/docs/#!/zh-cn2) 
 
 
 #### 安装
