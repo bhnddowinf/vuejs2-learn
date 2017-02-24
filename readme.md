@@ -14,196 +14,6 @@ vue.js 2 官网讲解(以下是自我要求，小凡，不要你花时间在 看
 
 6.百度云上传有所管制(锁1g，锁 影片)。
 
-# 系列教程
-
-## 1.vue-cli
-
-### 1-1.vue-cli 简介
-
-- 简单介绍
-
-- vue-cli 官网 [vuejs/vue-cli: Simple CLI for scaffolding Vue.js projects] (https://github.com/vuejs/vue-cli)
-
-- [视频：vue-cli 简介，与 套用 mint-ui demo (youtube) ] (https://youtu.be/AwjfG5T3vO4)
-
-- [视频：vue-cli 简介，与 套用 mint-ui demo (bilibili)] (http://www.bilibili.com/video/av6828349/)
-
-#### vue.js 2 vue-cli how to start
-
-vue.js2 vue-cli 怎么搭起来的教学, 照到
-
-
-	$ sudo npm install -g vue-cli
-	
-	$ vue init webpack my-project
-	
-	$ cd my-project
-	
-	$ npm install
-	
-	$ npm run dev
-
-
-[ mint-UI for vuejs2 移动端 UI 库 ] (http://mint-ui.github.io/docs/#!/zh-cn2) 
-
-
-#### 安装
-
-``` js
-
-npm install mint-ui -save
-
-```
-
-``` js
-// 本人重 vue 全家桶的讲解，怎么使用 ui库，跟此目标不符
-
-// 所有的 ui 库，使用原理，差不多，本示例，
-
-// 只讲一点点 ui 知识点，让你看个几分钟，就自已抓来用…
-
-
-// -- mint-ui start
-// http://mint-ui.github.io/docs/#!/zh-cn2/button
-// /my-project/node_modules/mint-ui/lib/button
-import mtButton from 'mint-ui/lib/button';
-import 'mint-ui/lib/button/style.css';
-
-// http://mint-ui.github.io/docs/#!/zh-cn2/toast
-// /my-project/node_modules/mint-ui/lib/toast
-import { Toast } from 'mint-ui';
-import 'mint-ui/lib/toast/style.css';
-// -- mint-ui end
-
-```
-
-
-#### mint-ui 怎么用？（个人实测…有坑，但还是可以用）
-
-- [mint-ui demo] (https://bhnddowinf.github.io/bhnddowinf/vuejs2demo/mint_ui1.html)
-
-- [源码：mint_ui1.html] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuex-demo/mint_ui1.html)
-
-- [源码：mint_ui1.js] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuex-demo/mint_ui1.js)
-
-- [源码：mint_ui1v.vue] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuex-demo/mint_ui1v.vue)
-
-#### 补充 mint_UI 点击问题修正
-
-- 关于事件绑定
-- 在 Vue 2.0 中，为自定义组件绑定原生事件必须使用 __.native__ 修饰符：
-
-```js
-    <my-component @click.native="handleClick">Click Me</my-component>
-```
-
-- 从易用性的角度出发，我们对 __Button__ 组件进行了处理，使它可以监听 __click__ 事件：
-
-```js
-    <mt-button @click="handleButtonClick">Click Me</mt-button>
-```
-
-- 但是对于其他组件，还是需要添加 __.native__ 修饰符。
-
-
-- 来源： http://mint-ui.github.io/docs/#!/zh-cn2
-
-### 1-2.多页应用
-
--  因为讲解 npm run dev , npm run build  这两种多页设置，所以会讲这么40分钟这么久。自已有经验的话，看代码来抄，比较快，真的是初学者，还是建议看完吧，没有人会讲这么细。
-
-- vuejs2 多页应用讲解https://github.com/bhnddowinf/vuejs2-learn
-
-  使用 vue-cli 一定用到的多页应用
-
-  教你怎么跑 npm run dev, npm run build
-
-> [视频: vue-cli 多页应用(youtube)](https://youtu.be/J-0Vl68uKyY)
-
-> [视频：vue-cli 多页应用(百度云)](http://pan.baidu.com/s/1pL71opX)
-
-> [视频：vue-cli 多页应用(http://www.bilibili.com/)](http://www.bilibili.com/video/av6805317/)
-
-## 2.Vuex
-
-### 2-1.[vuex 台湾小凡教程文档] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/vuex-learn.md)
-
-
-## 3.Vue-Router
-
-### 3-1.[vue-router 台湾小凡教程文档] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/vue-router-learn.md)
-
-# 教程目的
-
-- 网路上有很多 VUE 综合应用的视频，但大部份的视频 ，都当你已经了解官网
-  所以讲的节奏难免偏快。
-  此视频，以官网为重，将官网的观念，以视频搭配代码，实际演示。
-  如果官网有看不懂的地方，比对一下，视频跟代码，就会了解了。
-  减少你摸索的时间。
-
-## 4.vue.js2 demo
-
-> treeview
-
-- [Tree View Demo] (https://bhnddowinf.github.io/bhnddowinf/vuejs2demo/treeview.html)
-
-- [app.js] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuejs2-demo/treeview/app.js)
-
-- [app.vue] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuejs2-demo/treeview/app.vue)
-
-- [index.html] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuejs2-demo/treeview/index.html)
-
-- [item-template.vue] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuejs2-demo/treeview/)
-
-## 5.vue-rx
-
-- [rx.js 官网] (https://github.com/Reactive-Extensions/RxJS)
-
-- [rx.js 官网示例] (https://github.com/Reactive-Extensions/RxJS/tree/master/examples)
-
-- [rx.js 设计指南] (https://github.com/Reactive-Extensions/RxJS/tree/master/doc/designguidelines)
-
-- [尤雨溪大神写的 vue-rx] (https://github.com/vuejs/vue-rx)
-
-# vuejs 2 相关链结
-
-- [台湾小凡 vuejs2demo] (https://bhnddowinf.github.io/bhnddowinf/vuejs2demo/index.html) 台湾小凡 vue.js2 的 demo
-
-- [vue.js 2 官网] (http://vuejs.org) 正式 vue.js2 尤雨溪大神 官方网站
-
-- [http://vue.sike.io vue.js 2 双语网站] (http://vue.sike.io) vue2 全家桶双语网站
-
-- [http://vuefe.cn vue.js 2 中文网站] (http://vuefe.cn) vue2 全家桶中文网站
-
-- [http://vuefe.cn/about/ 贡献翻译群] (http://vuefe.cn/about/) vue2 全家桶中文网站翻译群，衷心感谢，贡献心力制作
-
-- [从 Vue1.x 迁移] (http://vuefe.cn/guide/migration.html) 怎么从 vue1 升级至 vue2，升级指南
-
-- [从Vue Router 0.7.x迁移] (http://vuefe.cn/guide/migration-vue-router.html) vue-router 升级指南
-
-- [vuejs/vue-cli: Simple CLI for scaffolding Vue.js projects] (https://github.com/vuejs/vue-cli) vue-cli
-
-- [最完整 vue 資源合集] (https://github.com/vuejs/awesome-vue) awesome-vue
-
-- [vuex 原文文档] (http://vuex.vuejs.org/en/index.html) 尤雨溪大神
-
-- [mint-UI for vuejs2] (http://mint-ui.github.io/docs/#!/zh-cn2) 移动端 UI 库
-
-# 國外 ajax 主流插件 (vue-resource 作者不更新了)
-
-- https://github.com/mzabriskie/axios
-
-> 尤大推荐 axios
-
-> npm install axios
-
-
-- https://github.com/github/fetch
-
-- https://github.com/naugtur/xhr
-
-- https://github.com/ded/reqwest
-
 # 豪哥的QQ群
 
 - 小弟在互联网有一个爱好前端的朋友，网名：豪情，不断贡献自已的知识分享最先进的前端资讯，带领着很多人学习前端。
@@ -230,19 +40,16 @@ import 'mint-ui/lib/toast/style.css';
 
 ![](https://github.com/bhnddowinf/vuejs2-learn/blob/master/me.jpeg?raw=true)
 
-    目前在台湾的中小企业
-
-    担任资讯研发部副理
-
-    手机：0922-731455
-
-    信箱：bhnddowinf@yahoo.com.tw
+    1. 目前在台湾的中小企业
+    2. 担任资讯研发部副理
+    3. 手机：0922-731455
+    4. 信箱：bhnddowinf@yahoo.com.tw
 
 ## 台湾小凡的专长：
 
-    1.云端伺服器建置
-    2.网站开发
-    3.企业资源规划系统
+    1. 云端伺服器建置
+    2. 网站开发
+    3. 企业资源规划系统
 
 
 ## License
@@ -254,6 +61,189 @@ import 'mint-ui/lib/toast/style.css';
   小弟想把 vue.js 教学的视频，做的更好
   但现实上，这需要很多的时间以及家人的支持
 
-  →→→→[请大力的鼓励作者] (https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=77E3EEHBD3N5C)
+ [请大力的鼓励作者] (https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=77E3EEHBD3N5C)
 
   ![](https://github.com/bhnddowinf/vuejs-learn/blob/master/03/wechat_qrcode.png)
+
+
+
+# 系列教程
+
+## 1. vue-cli
+
+### 1-1. vue-cli 简介
+
+简单介绍
+
+vue-cli 官网 [vuejs/vue-cli: Simple CLI for scaffolding Vue.js projects] (https://github.com/vuejs/vue-cli)
+
+[视频：vue-cli 简介，与 套用 mint-ui demo (youtube) ] (https://youtu.be/AwjfG5T3vO4)
+
+[视频：vue-cli 简介，与 套用 mint-ui demo (bilibili)] (http://www.bilibili.com/video/av6828349/)
+
+
+
+
+
+### 1-2. vue.js 2 vue-cli how to start
+
+vue.js2 vue-cli 怎么搭起来的教学, 照到
+
+	$ sudo npm install -g vue-cli
+
+	$ vue init webpack my-project
+
+	$ cd my-project
+
+	$ npm install
+
+	$ npm run dev
+
+### 1-3. vue-cli 使用 Mint-UI, 入门篇
+
+[ mint-UI for vuejs2 移动端 UI 库 ] (http://mint-ui.github.io/docs/#!/zh-cn2) 
+
+安装
+
+    $ npm install mint-ui -save
+
+.vue script
+
+    // 本人重 vue 全家桶的讲解，怎么使用 ui库，跟此目标不符
+    // 所有的 ui 库，使用原理，差不多，本示例，
+    // 只讲一点点 ui 知识点，让你看个几分钟，就自已抓来用…
+
+
+    // -- mint-ui start
+    // http://mint-ui.github.io/docs/#!/zh-cn2/button
+    // /my-project/node_modules/mint-ui/lib/button
+    import mtButton from 'mint-ui/lib/button';
+    import 'mint-ui/lib/button/style.css';
+
+    // http://mint-ui.github.io/docs/#!/zh-cn2/toast
+    // /my-project/node_modules/mint-ui/lib/toast
+    import { Toast } from 'mint-ui';
+    import 'mint-ui/lib/toast/style.css';
+    // -- mint-ui end
+
+
+** mint-ui 怎么用？（个人实测…有坑，但还是可以用） **
+
+ [demo mint-ui ] (https://bhnddowinf.github.io/bhnddowinf/vuejs2demo/mint_ui1.html)
+
+ [源码：mint_ui1.html] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuex-demo/mint_ui1.html)
+
+ [源码：mint_ui1.js] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuex-demo/mint_ui1.js)
+
+ [源码：mint_ui1v.vue] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuex-demo/mint_ui1v.vue)
+
+*补充 mint_UI 点击问题修正**
+
+- 关于事件绑定
+- 在 Vue 2.0 中，为自定义组件绑定原生事件必须使用 __.native__ 修饰符：
+
+```js
+    <my-component @click.native="handleClick">Click Me</my-component>
+```
+
+- 从易用性的角度出发，我们对 __Button__ 组件进行了处理，使它可以监听 __click__ 事件：
+
+```js
+    <mt-button @click="handleButtonClick">Click Me</mt-button>
+```
+
+- 但是对于其他组件，还是需要添加 __.native__ 修饰符。
+
+
+- 来源： http://mint-ui.github.io/docs/#!/zh-cn2
+
+### 1-4.多页应用
+
+-  因为讲解 npm run dev , npm run build  这两种多页设置，所以会讲这么40分钟这么久。自已有经验的话，看代码来抄，比较快，真的是初学者，还是建议看完吧，没有人会讲这么细。
+
+- vuejs2 多页应用讲解https://github.com/bhnddowinf/vuejs2-learn
+
+  使用 vue-cli 一定用到的多页应用
+
+  教你怎么跑 npm run dev, npm run build
+
+> [视频: vue-cli 多页应用(youtube)](https://youtu.be/J-0Vl68uKyY)
+
+> [视频：vue-cli 多页应用(百度云)](http://pan.baidu.com/s/1pL71opX)
+
+> [视频：vue-cli 多页应用(http://www.bilibili.com/)](http://www.bilibili.com/video/av6805317/)
+
+## 2.Vuex
+
+### 2-1.[vuex 台湾小凡教程文档] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/vuex-learn.md)
+
+
+## 3.Vue-Router
+
+### 3-1.[vue-router 台湾小凡教程文档] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/vue-router-learn.md)
+
+
+
+## 4.vue.js2 demo
+
+> treeview
+
+- [Tree View Demo] (https://bhnddowinf.github.io/bhnddowinf/vuejs2demo/treeview.html)
+
+- [app.js] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuejs2-demo/treeview/app.js)
+
+- [app.vue] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuejs2-demo/treeview/app.vue)
+
+- [index.html] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuejs2-demo/treeview/index.html)
+
+- [item-template.vue] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuejs2-demo/treeview/)
+
+## 5.vue-rx
+
+- [rx.js 官网] (https://github.com/Reactive-Extensions/RxJS)
+
+- [rx.js 官网示例] (https://github.com/Reactive-Extensions/RxJS/tree/master/examples)
+
+- [rx.js 设计指南] (https://github.com/Reactive-Extensions/RxJS/tree/master/doc/designguidelines)
+
+- [尤雨溪大神写的 vue-rx] (https://github.com/vuejs/vue-rx)
+
+# 6. vuejs 2 相关链结
+
+- [台湾小凡 vuejs2demo] (https://bhnddowinf.github.io/bhnddowinf/vuejs2demo/index.html) 台湾小凡 vue.js2 的 demo
+
+- [vue.js 2 官网] (http://vuejs.org) 正式 vue.js2 尤雨溪大神 官方网站
+
+- [http://vue.sike.io vue.js 2 双语网站] (http://vue.sike.io) vue2 全家桶双语网站
+
+- [http://vuefe.cn vue.js 2 中文网站] (http://vuefe.cn) vue2 全家桶中文网站
+
+- [http://vuefe.cn/about/ 贡献翻译群] (http://vuefe.cn/about/) vue2 全家桶中文网站翻译群，衷心感谢，贡献心力制作
+
+- [从 Vue1.x 迁移] (http://vuefe.cn/guide/migration.html) 怎么从 vue1 升级至 vue2，升级指南
+
+- [从Vue Router 0.7.x迁移] (http://vuefe.cn/guide/migration-vue-router.html) vue-router 升级指南
+
+- [vuejs/vue-cli: Simple CLI for scaffolding Vue.js projects] (https://github.com/vuejs/vue-cli) vue-cli
+
+- [最完整 vue 資源合集] (https://github.com/vuejs/awesome-vue) awesome-vue
+
+- [vuex 原文文档] (http://vuex.vuejs.org/en/index.html) 尤雨溪大神
+
+- [mint-UI for vuejs2] (http://mint-ui.github.io/docs/#!/zh-cn2) 移动端 UI 库
+
+# 7. 國外 ajax 主流插件 (vue-resource 作者不更新了)
+
+- https://github.com/mzabriskie/axios
+
+> 尤大推荐 axios
+
+> npm install axios
+
+
+- https://github.com/github/fetch
+
+- https://github.com/naugtur/xhr
+
+- https://github.com/ded/reqwest
+
