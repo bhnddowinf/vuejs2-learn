@@ -69,28 +69,15 @@ vue.js 2 官网讲解(以下是自我要求，小凡，不要你花时间在 看
 
 # 系列教程
 
-## vue-cli
+## 1. vue-cli
 
 [vue-cli 教程文檔] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/learn-vue-cli/vue-cli.md)
 
-## vue official website
+## 2. vue official website
 
 [form 教程文檔] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/learn-vue-official-website/vuejs2-form.md)
 
-## Vuex
-
-[vuex 台湾小凡教程文档] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/learn-vuex/vuex-learn.md)
-
-
-## Vue-Router
-
-[vue-router 台湾小凡教程文档] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/learn-vue-router/vue-router-learn.md)
-
-
-
-## vue.js2 demo - Tree View
-
-> treeview
+vue.js2 demo - Tree View
 
 - [Tree View Demo] (https://bhnddowinf.github.io/bhnddowinf/vuejs2demo/treeview.html)
 
@@ -101,6 +88,15 @@ vue.js 2 官网讲解(以下是自我要求，小凡，不要你花时间在 看
 - [index.html] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuejs2-demo/treeview/index.html)
 
 - [item-template.vue] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuejs2-demo/treeview/)
+- 
+## 3. Vuex
+
+[vuex 台湾小凡教程文档] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/learn-vuex/vuex-learn.md)
+
+
+## 4. Vue-Router
+
+[vue-router 台湾小凡教程文档] (https://github.com/bhnddowinf/vuejs2-learn/blob/master/learn-vue-router/vue-router-learn.md)
 
 ## 5.vue-rx
 
