@@ -62,7 +62,7 @@ vue.js 2 官网讲解(以下是自我要求，小凡，不要你花时间在 看
   小弟想把 vue.js 教学的视频，做的更好
   但现实上，这需要很多的时间以及家人的支持
 
- [请大力的鼓励作者](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=77E3EEHBD3N5C)
+ [赞助一点给作者](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=77E3EEHBD3N5C)
 
   ![](https://github.com/bhnddowinf/vuejs-learn/blob/master/03/wechat_qrcode.png)
 
@@ -70,82 +70,78 @@ vue.js 2 官网讲解(以下是自我要求，小凡，不要你花时间在 看
 
 # 系列教程
 
-## 1. vue-cli
+### 1. vue-cli
 
-[vue-cli 教程文檔](https://github.com/bhnddowinf/vuejs2-learn/blob/master/learn-vue-cli/vue-cli.md)
+[台湾小凡教程文档 / vue-cli](https://github.com/bhnddowinf/vuejs2-learn/blob/master/learn-vue-cli/vue-cli.md)
 
-## 2. vue official website
+### 2. vue official website
 
-[form 教程文檔](https://github.com/bhnddowinf/vuejs2-learn/blob/master/learn-vue-official-website/vuejs2-form.md)
+[台湾小凡教程文档 / 讲解 form 篇](https://github.com/bhnddowinf/vuejs2-learn/blob/master/learn-vue-official-website/vuejs2-form.md)
 
 vue.js2 demo - Tree View
 
-- [Tree View Demo](https://bhnddowinf.github.io/bhnddowinf/vuejs2demo/treeview.html)
+- [示例 / Tree View for vue.js2](https://bhnddowinf.github.io/bhnddowinf/vuejs2demo/treeview.html)
 
-- [app.js](https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuejs2-demo/treeview/app.js)
+- [源代码 / app.js](https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuejs2-demo/treeview/app.js)
 
-- [app.vue](https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuejs2-demo/treeview/app.vue)
+- [源代码 / app.vue](https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuejs2-demo/treeview/app.vue)
 
-- [index.html](https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuejs2-demo/treeview/index.html)
+- [源代码 / index.html](https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuejs2-demo/treeview/index.html)
 
-- [item-template.vue](https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuejs2-demo/treeview/)
-
-
-
-## 3. Vuex
-
-[vuex 台湾小凡教程文档](https://github.com/bhnddowinf/vuejs2-learn/blob/master/learn-vuex/vuex-learn.md)
+- [源代码 / item-template.vue](https://github.com/bhnddowinf/vuejs2-learn/blob/master/my-project/src/vuejs2-demo/treeview/)
 
 
-## 4. Vue-Router
 
-[vue-router 台湾小凡教程文档](https://github.com/bhnddowinf/vuejs2-learn/blob/master/learn-vue-router/vue-router-learn.md)
+### 3. Vuex
 
-## 5.vue-rx
+[台湾小凡教程文档 / vuex ](https://github.com/bhnddowinf/vuejs2-learn/blob/master/learn-vuex/vuex-learn.md)
+
+
+### 4. Vue-Router
+
+[ 台湾小凡教程文档 / vue-router ](https://github.com/bhnddowinf/vuejs2-learn/blob/master/learn-vue-router/vue-router-learn.md)
+
+### 5.vue-rx
 
 - [rx.js 官网](https://github.com/Reactive-Extensions/RxJS)
 
-- [rx.js 官网示例](https://github.com/Reactive-Extensions/RxJS/tree/master/examples)
+- [rx.js 官网 / 示例](https://github.com/Reactive-Extensions/RxJS/tree/master/examples)
 
-- [rx.js 设计指南] (https://github.com/Reactive-Extensions/RxJS/tree/master/doc/designguidelines)
+- [文章 / rx.js 设计指南](https://github.com/Reactive-Extensions/RxJS/tree/master/doc/designguidelines)
 
-- [尤雨溪大神写的 vue-rx] (https://github.com/vuejs/vue-rx)
+- [Github / vue-rx](https://github.com/vuejs/vue-rx)
 
-# 6. vuejs 2 相关链结
+### 6. vue.js 2 相关链结
 
-- [台湾小凡 vuejs2demo](https://bhnddowinf.github.io/bhnddowinf/vuejs2demo/index.html) 台湾小凡 vue.js2 的 demo
+- [台湾小凡 vue.js2 / demo](https://bhnddowinf.github.io/bhnddowinf/vuejs2demo/index.html) 
 
-- [vue.js 2 官网](http://vuejs.org) 正式 vue.js2 尤雨溪大神 官方网站
+- [vue.js2 官方网站](http://vuejs.org)
 
-- [http://vue.sike.io vue.js 2 双语网站](http://vue.sike.io) vue2 全家桶双语网站
+- [vue.js2 网站 / vue.sike.io](http://vue.sike.io) 
 
-- [http://vuefe.cn vue.js 2 中文网站](http://vuefe.cn) vue2 全家桶中文网站
+- [vue.js2 网站 / vuefe.cn](http://vuefe.cn) 
 
-- [http://vuefe.cn/about/ 贡献翻译群](http://vuefe.cn/about/) vue2 全家桶中文网站翻译群，衷心感谢，贡献心力制作
+- [vue.js2 网站 / vuefe.cn / 贡献翻译群](http://vuefe.cn/about/) 
 
-- [从 Vue1.x 迁移](http://vuefe.cn/guide/migration.html) 怎么从 vue1 升级至 vue2，升级指南
+- [文章 / 从 Vue1.x 迁移至 vue2](http://vuefe.cn/guide/migration.html) 
 
-- [从Vue Router 0.7.x迁移](http://vuefe.cn/guide/migration-vue-router.html) vue-router 升级指南
+- [文章 / 从Vue Router 0.7.x迁移至 vue2](http://vuefe.cn/guide/migration-vue-router.html)
 
-- [vuejs/vue-cli: Simple CLI for scaffolding Vue.js projects](https://github.com/vuejs/vue-cli) vue-cli
+- [Github / vue-cli / Simple CLI for scaffolding Vue.js projects](https://github.com/vuejs/vue-cli) 
 
-- [最完整 vue 資源合集](https://github.com/vuejs/awesome-vue) awesome-vue
+- [Github / awesome-vue 最完整 vue 資源合集](https://github.com/vuejs/awesome-vue) 
 
-- [vuex 原文文档](http://vuex.vuejs.org/en/index.html) 尤雨溪大神
+- [Github / vuex](http://vuex.vuejs.org/en/index.html) 
 
-- [mint-UI for vuejs2](http://mint-ui.github.io/docs/#!/zh-cn2) 移动端 UI 库
+- [Github / mint-UI for vuejs2](http://mint-ui.github.io/docs/#!/zh-cn2) 
 
-# 7. 國外 ajax 主流插件 (vue-resource 作者不更新了)
+### 7. 國外 ajax 主流插件 (vue-resource 作者不更新了)
 
-- https://github.com/mzabriskie/axios
+- [Github / axios 尤大推荐](https://github.com/mzabriskie/axios)
 
-> 尤大推荐 axios
+- [Github / fetch ](https://github.com/github/fetch)
 
-> npm install axios
+- [Github / xhr](https://github.com/naugtur/xhr)
 
-- https://github.com/github/fetch
-
-- https://github.com/naugtur/xhr
-
-- https://github.com/ded/reqwest
+- [Github / reqwest](https://github.com/ded/reqwest)
 
