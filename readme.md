@@ -2,17 +2,17 @@
 
 vue.js 2 官网讲解(以下是自我要求，小凡，不要你花时间在 看视频以及打代码上，那有多浪费时间)
 
-1.全程用 vue-cli 讲解
+- 全程用 vue-cli 讲解
 
-2.所有代码在 https://github.com/bhnddowinf/vuejs2-learn ，你 copy 改改，就好。
+- 所有代码在 https://github.com/bhnddowinf/vuejs2-learn ，你 copy 改改，就好。
 
-3.所有代码 demo 在 https://bhnddowinf.github.io/bhnddowinf/vuejs2demo/index.html
+- 所有代码 demo 在 https://bhnddowinf.github.io/bhnddowinf/vuejs2demo/index.html
 
-4.本人用 yarn
+- 個人使用 yarn
 
-5.所有章节视频会在 Youtube, bilibili.com
+- 所有章节视频会在 Youtube, bilibili.com 看到
 
-6.百度云上传有所管制(锁1g，锁 影片)。
+- 百度云上传有所管制(锁1g，锁 mp4, mov，難以上傳)。
 
 # 豪哥的QQ群
 
@@ -20,7 +20,8 @@ vue.js 2 官网讲解(以下是自我要求，小凡，不要你花时间在 看
 
 - 小弟有幸能结交豪哥，以下是中国最专业的前端群, 仅供参考.
 
-> * vuejs 364912432
+> * vuejs   364912432
+> * vuejs-2 631586939
 > * Angularjs 238251402
 > * React 530415177
 > * Nodejs 422910907
