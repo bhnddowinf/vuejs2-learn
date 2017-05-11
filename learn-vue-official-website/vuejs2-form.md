@@ -1,13 +1,12 @@
 
 
-# v-model 特性如下： (1)
-
+# 1. v-model 特性
 - v-model 并不关心表单控件初始化所生成的值。因为它会选择 Vue 实例数据来作为具体的值。
 - v-model 本质上不过是语法糖，它负责监听用户的输入事件以更新数据，并特别处理一些极端的例子。
 - 严格模式下的Vuex，在属于 Vuex 的 state （状态）上使用 v-model时会比较棘手(就是 vuex 不爱 v-model)
 
 
-# 文本 (2)
+# 2. 文本 textbox
 ## VUEX
 
 ```js
@@ -77,7 +76,7 @@
 ```
 
 
-# 多行文本 (3)
+# 3. 多行文本 textarea
 
 - 在文本区域插值( <textarea></textarea> ) 并不会生效，应用 v-model 来代替
 
@@ -89,7 +88,7 @@
 ```
 
 
-# 单勾框 (4)
+# 4. 单勾框 checkbox
 
 ```js
 <input type="checkbox" id="checkbox" v-model="checked">
@@ -108,7 +107,7 @@
 ```
 
 
-# 多勾框 (5)
+# 5. 多勾框 checkbox
 ## data，要有 数组 []
 
 ```js
@@ -151,7 +150,7 @@ vm.toggle === vm.b
 ```
 
 
-# 单选框 (6)
+# 6. 单选框 radio
 
 ```js
 <input type="radio" id="one" value="One" v-model="dom">
@@ -191,7 +190,7 @@ vm.pick === vm.a
 
 
 
-# 单选列表(7)
+# 7. 单选列表 select
 
 ```js
 <select v-model="dom">
@@ -228,7 +227,7 @@ vm.selected.number // -> 123
 
 
 
-# 多选列表(8)
+# 8. 多选列表 select
 ## data （绑定到一个数组）
 
 ```js
